@@ -1,0 +1,1118 @@
+{
+  "uid" : "7ead2fd518215f7",
+  "name" : "RestTest()",
+  "fullName" : "com.netprintweb.rest.TestCheckout.RestTest",
+  "historyId" : "c01d6433485e3fcd990503bc7cd710a3",
+  "time" : {
+    "start" : 1781109191583,
+    "stop" : 1781109323646,
+    "duration" : 132063
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Регресс бэка — repeat order, главная, альбомы/таймлайн, макеты, корзина",
+      "time" : {
+        "start" : 1781109191587,
+        "stop" : 1781109323631,
+        "duration" : 132044
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Повторить заказ — первый шаг",
+        "time" : {
+          "start" : 1781109191587,
+          "stop" : 1781109191807,
+          "duration" : 220
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "POST repeatOrder для заказа: 5180900388286885378",
+          "time" : {
+            "start" : 1781109191587,
+            "stop" : 1781109191807,
+            "duration" : 220
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "✅ Повторить заказ — добавить товары в корзину",
+            "time" : {
+              "start" : 1781109191588,
+              "stop" : 1781109191807,
+              "duration" : 219
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Попытка повтора заказа 5180900388286885378",
+              "time" : {
+                "start" : 1781109191588,
+                "stop" : 1781109191807,
+                "duration" : 219
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "dfe13c04f9a81645",
+                "name" : "Request Log",
+                "source" : "dfe13c04f9a81645.txt",
+                "type" : "text/plain",
+                "size" : 132
+              }, {
+                "uid" : "1254bcc3f564d582",
+                "name" : "Response Log",
+                "source" : "1254bcc3f564d582.txt",
+                "type" : "text/plain",
+                "size" : 96
+              }, {
+                "uid" : "982184414f392b13",
+                "name" : "Повтор заказа: товары добавлены в корзину",
+                "source" : "982184414f392b13.txt",
+                "type" : "text/plain",
+                "size" : 42
+              } ],
+              "parameters" : [ {
+                "name" : "token",
+                "value" : "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcm9qZWN0X2d1aWQiOiI1ZWJlOWFkNDlkMjM0ODY1NTk3ZDRhMTkyOGVhNTliZSIsInVzZXJfZ3VpZCI6Ijg1ZDhjMjIwOGE2ZjQ4Yjk4ZDE3ZDA0NjBlZmM4NjI3IiwiY2xpZW50X2lkIjoiODVkOGMyMjA4YTZmNDhiOThkMTdkMDQ2MGVmYzg2MjciLCJleHAiOjE3ODM3MDExOTF9.Ok6ni_qyezK7qSmQR2T4dZe9Uv6MUvuqZbrJ1oIogY4axGpS_AHrDHpKWxi0oXcKqNka-g3sPU8_zV-Il9CWGVXI1egTkG4jm5PINrbmyjQQ9-IH1-mfNBxS1HAvdXzjKDmXPtTMpv9hG0rUH7NdwGQKE3TsbOMZnPueUFceNOXQPiAsJcMjF8sIDt0u74fLmxfeRjOC4qR9BJLgg-22oi6oIr1sOxnz_MIW4ZkEvyLmQOXAU5a85kZaFC9BoA9zD8FtEIn7MX7nxAPTIJIvUNz8TNK7fUuh9_ducmt_1CFJXuQ46mWt6TLO8nJJGVZsmXfCiOnFrVaSqArpixrQIA"
+              }, {
+                "name" : "orderId",
+                "value" : "5180900388286885378"
+              } ],
+              "stepsCount" : 0,
+              "hasContent" : true,
+              "attachmentsCount" : 3,
+              "shouldDisplayMessage" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "token",
+              "value" : "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcm9qZWN0X2d1aWQiOiI1ZWJlOWFkNDlkMjM0ODY1NTk3ZDRhMTkyOGVhNTliZSIsInVzZXJfZ3VpZCI6Ijg1ZDhjMjIwOGE2ZjQ4Yjk4ZDE3ZDA0NjBlZmM4NjI3IiwiY2xpZW50X2lkIjoiODVkOGMyMjA4YTZmNDhiOThkMTdkMDQ2MGVmYzg2MjciLCJleHAiOjE3ODM3MDExOTF9.Ok6ni_qyezK7qSmQR2T4dZe9Uv6MUvuqZbrJ1oIogY4axGpS_AHrDHpKWxi0oXcKqNka-g3sPU8_zV-Il9CWGVXI1egTkG4jm5PINrbmyjQQ9-IH1-mfNBxS1HAvdXzjKDmXPtTMpv9hG0rUH7NdwGQKE3TsbOMZnPueUFceNOXQPiAsJcMjF8sIDt0u74fLmxfeRjOC4qR9BJLgg-22oi6oIr1sOxnz_MIW4ZkEvyLmQOXAU5a85kZaFC9BoA9zD8FtEIn7MX7nxAPTIJIvUNz8TNK7fUuh9_ducmt_1CFJXuQ46mWt6TLO8nJJGVZsmXfCiOnFrVaSqArpixrQIA"
+            }, {
+              "name" : "orderId",
+              "value" : "5180900388286885378"
+            } ],
+            "stepsCount" : 1,
+            "hasContent" : true,
+            "attachmentsCount" : 3,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 2,
+          "hasContent" : true,
+          "attachmentsCount" : 3,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcm9qZWN0X2d1aWQiOiI1ZWJlOWFkNDlkMjM0ODY1NTk3ZDRhMTkyOGVhNTliZSIsInVzZXJfZ3VpZCI6Ijg1ZDhjMjIwOGE2ZjQ4Yjk4ZDE3ZDA0NjBlZmM4NjI3IiwiY2xpZW50X2lkIjoiODVkOGMyMjA4YTZmNDhiOThkMTdkMDQ2MGVmYzg2MjciLCJleHAiOjE3ODM3MDExOTF9.Ok6ni_qyezK7qSmQR2T4dZe9Uv6MUvuqZbrJ1oIogY4axGpS_AHrDHpKWxi0oXcKqNka-g3sPU8_zV-Il9CWGVXI1egTkG4jm5PINrbmyjQQ9-IH1-mfNBxS1HAvdXzjKDmXPtTMpv9hG0rUH7NdwGQKE3TsbOMZnPueUFceNOXQPiAsJcMjF8sIDt0u74fLmxfeRjOC4qR9BJLgg-22oi6oIr1sOxnz_MIW4ZkEvyLmQOXAU5a85kZaFC9BoA9zD8FtEIn7MX7nxAPTIJIvUNz8TNK7fUuh9_ducmt_1CFJXuQ46mWt6TLO8nJJGVZsmXfCiOnFrVaSqArpixrQIA"
+        }, {
+          "name" : "summary",
+          "value" : "[]"
+        } ],
+        "stepsCount" : 3,
+        "hasContent" : true,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Главная страница — tesserae, have_unread, banners",
+        "time" : {
+          "start" : 1781109191807,
+          "stop" : 1781109192297,
+          "duration" : 490
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "GET /v1/tesserae",
+          "time" : {
+            "start" : 1781109191808,
+            "stop" : 1781109192091,
+            "duration" : 283
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "✅ [1/3] Главная: Получение tesserae",
+            "time" : {
+              "start" : 1781109191808,
+              "stop" : 1781109192091,
+              "duration" : 283
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Глубокая валидация ответа API",
+              "time" : {
+                "start" : 1781109191959,
+                "stop" : 1781109191972,
+                "duration" : 13
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "f67d83fa72b1d8f",
+                "name" : "Валидация пройдена: getMainTesserae",
+                "source" : "f67d83fa72b1d8f.txt",
+                "type" : "text/plain",
+                "size" : 114
+              } ],
+              "parameters" : [ {
+                "name" : "response",
+                "value" : "io.restassured.internal.RestAssuredResponseImpl@75c095a5"
+              }, {
+                "name" : "endpointName",
+                "value" : "getMainTesserae"
+              }, {
+                "name" : "requiredFields",
+                "value" : "[tesserae, meta]"
+              } ],
+              "stepsCount" : 0,
+              "hasContent" : true,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false
+            }, {
+              "name" : "Валидация структуры массива",
+              "time" : {
+                "start" : 1781109191972,
+                "stop" : 1781109192073,
+                "duration" : 101
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Глубокая валидация ответа API",
+                "time" : {
+                  "start" : 1781109191972,
+                  "stop" : 1781109191972,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ {
+                  "uid" : "a12cef9f05ca94fa",
+                  "name" : "Валидация пройдена: getMainTesserae",
+                  "source" : "a12cef9f05ca94fa.txt",
+                  "type" : "text/plain",
+                  "size" : 106
+                } ],
+                "parameters" : [ {
+                  "name" : "response",
+                  "value" : "io.restassured.internal.RestAssuredResponseImpl@75c095a5"
+                }, {
+                  "name" : "endpointName",
+                  "value" : "getMainTesserae"
+                }, {
+                  "name" : "requiredFields",
+                  "value" : "null"
+                } ],
+                "stepsCount" : 0,
+                "hasContent" : true,
+                "attachmentsCount" : 1,
+                "shouldDisplayMessage" : false
+              } ],
+              "attachments" : [ {
+                "uid" : "7619d530269d1ae7",
+                "name" : "Валидация массива пройдена: getMainTesserae",
+                "source" : "7619d530269d1ae7.txt",
+                "type" : "text/plain",
+                "size" : 66
+              } ],
+              "parameters" : [ {
+                "name" : "response",
+                "value" : "io.restassured.internal.RestAssuredResponseImpl@75c095a5"
+              }, {
+                "name" : "endpointName",
+                "value" : "getMainTesserae"
+              }, {
+                "name" : "arrayPath",
+                "value" : "tesserae"
+              }, {
+                "name" : "itemRequiredFields",
+                "value" : "[id, name, slug, type]"
+              } ],
+              "stepsCount" : 1,
+              "hasContent" : true,
+              "attachmentsCount" : 2,
+              "shouldDisplayMessage" : false
+            }, {
+              "name" : "Валидация числового поля",
+              "time" : {
+                "start" : 1781109192074,
+                "stop" : 1781109192078,
+                "duration" : 4
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "4107bada046dbb29",
+                "name" : "Валидация числового поля пройдена: getMainTesserae",
+                "source" : "4107bada046dbb29.txt",
+                "type" : "text/plain",
+                "size" : 42
+              } ],
+              "parameters" : [ {
+                "name" : "jsonPath",
+                "value" : "io.restassured.path.json.JsonPath@18a349cb"
+              }, {
+                "name" : "fieldPath",
+                "value" : "meta.offset"
+              }, {
+                "name" : "endpointName",
+                "value" : "getMainTesserae"
+              }, {
+                "name" : "canBeNull",
+                "value" : "false"
+              } ],
+              "stepsCount" : 0,
+              "hasContent" : true,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false
+            }, {
+              "name" : "Валидация числового поля",
+              "time" : {
+                "start" : 1781109192078,
+                "stop" : 1781109192081,
+                "duration" : 3
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "741f4fb53762aa6d",
+                "name" : "Валидация числового поля пройдена: getMainTesserae",
+                "source" : "741f4fb53762aa6d.txt",
+                "type" : "text/plain",
+                "size" : 42
+              } ],
+              "parameters" : [ {
+                "name" : "jsonPath",
+                "value" : "io.restassured.path.json.JsonPath@18a349cb"
+              }, {
+                "name" : "fieldPath",
+                "value" : "meta.limit"
+              }, {
+                "name" : "endpointName",
+                "value" : "getMainTesserae"
+              }, {
+                "name" : "canBeNull",
+                "value" : "false"
+              } ],
+              "stepsCount" : 0,
+              "hasContent" : true,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false
+            }, {
+              "name" : "Валидация числового поля",
+              "time" : {
+                "start" : 1781109192081,
+                "stop" : 1781109192083,
+                "duration" : 2
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "508d5e90c1988feb",
+                "name" : "Валидация числового поля пройдена: getMainTesserae",
+                "source" : "508d5e90c1988feb.txt",
+                "type" : "text/plain",
+                "size" : 41
+              } ],
+              "parameters" : [ {
+                "name" : "jsonPath",
+                "value" : "io.restassured.path.json.JsonPath@18a349cb"
+              }, {
+                "name" : "fieldPath",
+                "value" : "meta.count"
+              }, {
+                "name" : "endpointName",
+                "value" : "getMainTesserae"
+              }, {
+                "name" : "canBeNull",
+                "value" : "false"
+              } ],
+              "stepsCount" : 0,
+              "hasContent" : true,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false
+            } ],
+            "attachments" : [ {
+              "uid" : "c111c6d4d1731f36",
+              "name" : "Request Log",
+              "source" : "c111c6d4d1731f36.txt",
+              "type" : "text/plain",
+              "size" : 732
+            }, {
+              "uid" : "d9941aed1f6d35b5",
+              "name" : "Response Log",
+              "source" : "d9941aed1f6d35b5.txt",
+              "type" : "text/plain",
+              "size" : 2571
+            }, {
+              "uid" : "921a3d5462e90c5a",
+              "name" : "Главная: tesserae",
+              "source" : "921a3d5462e90c5a.txt",
+              "type" : "text/plain",
+              "size" : 2517
+            } ],
+            "parameters" : [ {
+              "name" : "token",
+              "value" : "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcm9qZWN0X2d1aWQiOiI1ZWJlOWFkNDlkMjM0ODY1NTk3ZDRhMTkyOGVhNTliZSIsInVzZXJfZ3VpZCI6Ijg1ZDhjMjIwOGE2ZjQ4Yjk4ZDE3ZDA0NjBlZmM4NjI3IiwiY2xpZW50X2lkIjoiODVkOGMyMjA4YTZmNDhiOThkMTdkMDQ2MGVmYzg2MjciLCJleHAiOjE3ODM3MDExOTF9.Ok6ni_qyezK7qSmQR2T4dZe9Uv6MUvuqZbrJ1oIogY4axGpS_AHrDHpKWxi0oXcKqNka-g3sPU8_zV-Il9CWGVXI1egTkG4jm5PINrbmyjQQ9-IH1-mfNBxS1HAvdXzjKDmXPtTMpv9hG0rUH7NdwGQKE3TsbOMZnPueUFceNOXQPiAsJcMjF8sIDt0u74fLmxfeRjOC4qR9BJLgg-22oi6oIr1sOxnz_MIW4ZkEvyLmQOXAU5a85kZaFC9BoA9zD8FtEIn7MX7nxAPTIJIvUNz8TNK7fUuh9_ducmt_1CFJXuQ46mWt6TLO8nJJGVZsmXfCiOnFrVaSqArpixrQIA"
+            } ],
+            "stepsCount" : 6,
+            "hasContent" : true,
+            "attachmentsCount" : 9,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 7,
+          "hasContent" : true,
+          "attachmentsCount" : 9,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "GET have_unread",
+          "time" : {
+            "start" : 1781109192091,
+            "stop" : 1781109192168,
+            "duration" : 77
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "✅ [2/3] Главная: Проверка непрочитанных notices",
+            "time" : {
+              "start" : 1781109192091,
+              "stop" : 1781109192168,
+              "duration" : 77
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Извлечение user_guid из JWT токена",
+              "time" : {
+                "start" : 1781109192091,
+                "stop" : 1781109192093,
+                "duration" : 2
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "token",
+                "value" : "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcm9qZWN0X2d1aWQiOiI1ZWJlOWFkNDlkMjM0ODY1NTk3ZDRhMTkyOGVhNTliZSIsInVzZXJfZ3VpZCI6Ijg1ZDhjMjIwOGE2ZjQ4Yjk4ZDE3ZDA0NjBlZmM4NjI3IiwiY2xpZW50X2lkIjoiODVkOGMyMjA4YTZmNDhiOThkMTdkMDQ2MGVmYzg2MjciLCJleHAiOjE3ODM3MDExOTF9.Ok6ni_qyezK7qSmQR2T4dZe9Uv6MUvuqZbrJ1oIogY4axGpS_AHrDHpKWxi0oXcKqNka-g3sPU8_zV-Il9CWGVXI1egTkG4jm5PINrbmyjQQ9-IH1-mfNBxS1HAvdXzjKDmXPtTMpv9hG0rUH7NdwGQKE3TsbOMZnPueUFceNOXQPiAsJcMjF8sIDt0u74fLmxfeRjOC4qR9BJLgg-22oi6oIr1sOxnz_MIW4ZkEvyLmQOXAU5a85kZaFC9BoA9zD8FtEIn7MX7nxAPTIJIvUNz8TNK7fUuh9_ducmt_1CFJXuQ46mWt6TLO8nJJGVZsmXfCiOnFrVaSqArpixrQIA"
+              } ],
+              "stepsCount" : 0,
+              "hasContent" : true,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false
+            }, {
+              "name" : "Глубокая валидация ответа API",
+              "time" : {
+                "start" : 1781109192166,
+                "stop" : 1781109192168,
+                "duration" : 2
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "be5304161b46871f",
+                "name" : "Валидация пройдена: haveUnreadNotices",
+                "source" : "be5304161b46871f.txt",
+                "type" : "text/plain",
+                "size" : 102
+              } ],
+              "parameters" : [ {
+                "name" : "response",
+                "value" : "io.restassured.internal.RestAssuredResponseImpl@65374526"
+              }, {
+                "name" : "endpointName",
+                "value" : "haveUnreadNotices"
+              }, {
+                "name" : "requiredFields",
+                "value" : "[data]"
+              } ],
+              "stepsCount" : 0,
+              "hasContent" : true,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false
+            } ],
+            "attachments" : [ {
+              "uid" : "52397212189b4187",
+              "name" : "Request Log",
+              "source" : "52397212189b4187.txt",
+              "type" : "text/plain",
+              "size" : 783
+            }, {
+              "uid" : "9f94c0e20dd54697",
+              "name" : "Response Log",
+              "source" : "9f94c0e20dd54697.txt",
+              "type" : "text/plain",
+              "size" : 78
+            }, {
+              "uid" : "aecd298f6eb84694",
+              "name" : "Главная: have_unread",
+              "source" : "aecd298f6eb84694.txt",
+              "type" : "text/plain",
+              "size" : 44
+            } ],
+            "parameters" : [ {
+              "name" : "token",
+              "value" : "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcm9qZWN0X2d1aWQiOiI1ZWJlOWFkNDlkMjM0ODY1NTk3ZDRhMTkyOGVhNTliZSIsInVzZXJfZ3VpZCI6Ijg1ZDhjMjIwOGE2ZjQ4Yjk4ZDE3ZDA0NjBlZmM4NjI3IiwiY2xpZW50X2lkIjoiODVkOGMyMjA4YTZmNDhiOThkMTdkMDQ2MGVmYzg2MjciLCJleHAiOjE3ODM3MDExOTF9.Ok6ni_qyezK7qSmQR2T4dZe9Uv6MUvuqZbrJ1oIogY4axGpS_AHrDHpKWxi0oXcKqNka-g3sPU8_zV-Il9CWGVXI1egTkG4jm5PINrbmyjQQ9-IH1-mfNBxS1HAvdXzjKDmXPtTMpv9hG0rUH7NdwGQKE3TsbOMZnPueUFceNOXQPiAsJcMjF8sIDt0u74fLmxfeRjOC4qR9BJLgg-22oi6oIr1sOxnz_MIW4ZkEvyLmQOXAU5a85kZaFC9BoA9zD8FtEIn7MX7nxAPTIJIvUNz8TNK7fUuh9_ducmt_1CFJXuQ46mWt6TLO8nJJGVZsmXfCiOnFrVaSqArpixrQIA"
+            } ],
+            "stepsCount" : 2,
+            "hasContent" : true,
+            "attachmentsCount" : 4,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 3,
+          "hasContent" : true,
+          "attachmentsCount" : 4,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "GET banners",
+          "time" : {
+            "start" : 1781109192169,
+            "stop" : 1781109192297,
+            "duration" : 128
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "✅ [3/3] Главная: Получение banners",
+            "time" : {
+              "start" : 1781109192169,
+              "stop" : 1781109192297,
+              "duration" : 128
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Глубокая валидация ответа API",
+              "time" : {
+                "start" : 1781109192296,
+                "stop" : 1781109192296,
+                "duration" : 0
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "b929141772fa7d87",
+                "name" : "Валидация пройдена: getMainBanners",
+                "source" : "b929141772fa7d87.txt",
+                "type" : "text/plain",
+                "size" : 105
+              } ],
+              "parameters" : [ {
+                "name" : "response",
+                "value" : "io.restassured.internal.RestAssuredResponseImpl@622c658d"
+              }, {
+                "name" : "endpointName",
+                "value" : "getMainBanners"
+              }, {
+                "name" : "requiredFields",
+                "value" : "null"
+              } ],
+              "stepsCount" : 0,
+              "hasContent" : true,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false
+            } ],
+            "attachments" : [ {
+              "uid" : "89f0deeda57bee0c",
+              "name" : "Request Log",
+              "source" : "89f0deeda57bee0c.txt",
+              "type" : "text/plain",
+              "size" : 760
+            }, {
+              "uid" : "2052e258c1b0afe7",
+              "name" : "Response Log",
+              "source" : "2052e258c1b0afe7.txt",
+              "type" : "text/plain",
+              "size" : 158
+            }, {
+              "uid" : "bea1589490be670f",
+              "name" : "Главная: banners",
+              "source" : "bea1589490be670f.txt",
+              "type" : "text/plain",
+              "size" : 72
+            } ],
+            "parameters" : [ {
+              "name" : "token",
+              "value" : "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcm9qZWN0X2d1aWQiOiI1ZWJlOWFkNDlkMjM0ODY1NTk3ZDRhMTkyOGVhNTliZSIsInVzZXJfZ3VpZCI6Ijg1ZDhjMjIwOGE2ZjQ4Yjk4ZDE3ZDA0NjBlZmM4NjI3IiwiY2xpZW50X2lkIjoiODVkOGMyMjA4YTZmNDhiOThkMTdkMDQ2MGVmYzg2MjciLCJleHAiOjE3ODM3MDExOTF9.Ok6ni_qyezK7qSmQR2T4dZe9Uv6MUvuqZbrJ1oIogY4axGpS_AHrDHpKWxi0oXcKqNka-g3sPU8_zV-Il9CWGVXI1egTkG4jm5PINrbmyjQQ9-IH1-mfNBxS1HAvdXzjKDmXPtTMpv9hG0rUH7NdwGQKE3TsbOMZnPueUFceNOXQPiAsJcMjF8sIDt0u74fLmxfeRjOC4qR9BJLgg-22oi6oIr1sOxnz_MIW4ZkEvyLmQOXAU5a85kZaFC9BoA9zD8FtEIn7MX7nxAPTIJIvUNz8TNK7fUuh9_ducmt_1CFJXuQ46mWt6TLO8nJJGVZsmXfCiOnFrVaSqArpixrQIA"
+            } ],
+            "stepsCount" : 1,
+            "hasContent" : true,
+            "attachmentsCount" : 4,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 2,
+          "hasContent" : true,
+          "attachmentsCount" : 4,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcm9qZWN0X2d1aWQiOiI1ZWJlOWFkNDlkMjM0ODY1NTk3ZDRhMTkyOGVhNTliZSIsInVzZXJfZ3VpZCI6Ijg1ZDhjMjIwOGE2ZjQ4Yjk4ZDE3ZDA0NjBlZmM4NjI3IiwiY2xpZW50X2lkIjoiODVkOGMyMjA4YTZmNDhiOThkMTdkMDQ2MGVmYzg2MjciLCJleHAiOjE3ODM3MDExOTF9.Ok6ni_qyezK7qSmQR2T4dZe9Uv6MUvuqZbrJ1oIogY4axGpS_AHrDHpKWxi0oXcKqNka-g3sPU8_zV-Il9CWGVXI1egTkG4jm5PINrbmyjQQ9-IH1-mfNBxS1HAvdXzjKDmXPtTMpv9hG0rUH7NdwGQKE3TsbOMZnPueUFceNOXQPiAsJcMjF8sIDt0u74fLmxfeRjOC4qR9BJLgg-22oi6oIr1sOxnz_MIW4ZkEvyLmQOXAU5a85kZaFC9BoA9zD8FtEIn7MX7nxAPTIJIvUNz8TNK7fUuh9_ducmt_1CFJXuQ46mWt6TLO8nJJGVZsmXfCiOnFrVaSqArpixrQIA"
+        }, {
+          "name" : "summary",
+          "value" : "[repeat order — OK]"
+        } ],
+        "stepsCount" : 15,
+        "hasContent" : true,
+        "attachmentsCount" : 17,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Альбомы и таймлайн — timeline/grouped (to=текущая дата), getAlbums",
+        "time" : {
+          "start" : 1781109192297,
+          "stop" : 1781109192624,
+          "duration" : 327
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "GET timeline/grouped",
+          "time" : {
+            "start" : 1781109192297,
+            "stop" : 1781109192383,
+            "duration" : 86
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "✅ [1/2] Альбомы/Таймлайн: timeline grouped",
+            "time" : {
+              "start" : 1781109192297,
+              "stop" : 1781109192383,
+              "duration" : 86
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Извлечение user_guid из JWT токена",
+              "time" : {
+                "start" : 1781109192297,
+                "stop" : 1781109192301,
+                "duration" : 4
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "token",
+                "value" : "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcm9qZWN0X2d1aWQiOiI1ZWJlOWFkNDlkMjM0ODY1NTk3ZDRhMTkyOGVhNTliZSIsInVzZXJfZ3VpZCI6Ijg1ZDhjMjIwOGE2ZjQ4Yjk4ZDE3ZDA0NjBlZmM4NjI3IiwiY2xpZW50X2lkIjoiODVkOGMyMjA4YTZmNDhiOThkMTdkMDQ2MGVmYzg2MjciLCJleHAiOjE3ODM3MDExOTF9.Ok6ni_qyezK7qSmQR2T4dZe9Uv6MUvuqZbrJ1oIogY4axGpS_AHrDHpKWxi0oXcKqNka-g3sPU8_zV-Il9CWGVXI1egTkG4jm5PINrbmyjQQ9-IH1-mfNBxS1HAvdXzjKDmXPtTMpv9hG0rUH7NdwGQKE3TsbOMZnPueUFceNOXQPiAsJcMjF8sIDt0u74fLmxfeRjOC4qR9BJLgg-22oi6oIr1sOxnz_MIW4ZkEvyLmQOXAU5a85kZaFC9BoA9zD8FtEIn7MX7nxAPTIJIvUNz8TNK7fUuh9_ducmt_1CFJXuQ46mWt6TLO8nJJGVZsmXfCiOnFrVaSqArpixrQIA"
+              } ],
+              "stepsCount" : 0,
+              "hasContent" : true,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false
+            }, {
+              "name" : "Глубокая валидация ответа API",
+              "time" : {
+                "start" : 1781109192379,
+                "stop" : 1781109192383,
+                "duration" : 4
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "fe07c4c48aeaab79",
+                "name" : "Валидация пройдена: getTimelineGroupedToday",
+                "source" : "fe07c4c48aeaab79.txt",
+                "type" : "text/plain",
+                "size" : 103
+              } ],
+              "parameters" : [ {
+                "name" : "response",
+                "value" : "io.restassured.internal.RestAssuredResponseImpl@331eb953"
+              }, {
+                "name" : "endpointName",
+                "value" : "getTimelineGroupedToday"
+              }, {
+                "name" : "requiredFields",
+                "value" : "[data]"
+              } ],
+              "stepsCount" : 0,
+              "hasContent" : true,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false
+            } ],
+            "attachments" : [ {
+              "uid" : "53ff2bfceba5722c",
+              "name" : "Request Log",
+              "source" : "53ff2bfceba5722c.txt",
+              "type" : "text/plain",
+              "size" : 814
+            }, {
+              "uid" : "dc7f20152c34341e",
+              "name" : "Response Log",
+              "source" : "dc7f20152c34341e.txt",
+              "type" : "text/plain",
+              "size" : 220
+            }, {
+              "uid" : "7ed139dfe912782b",
+              "name" : "Timeline grouped",
+              "source" : "7ed139dfe912782b.txt",
+              "type" : "text/plain",
+              "size" : 166
+            } ],
+            "parameters" : [ {
+              "name" : "token",
+              "value" : "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcm9qZWN0X2d1aWQiOiI1ZWJlOWFkNDlkMjM0ODY1NTk3ZDRhMTkyOGVhNTliZSIsInVzZXJfZ3VpZCI6Ijg1ZDhjMjIwOGE2ZjQ4Yjk4ZDE3ZDA0NjBlZmM4NjI3IiwiY2xpZW50X2lkIjoiODVkOGMyMjA4YTZmNDhiOThkMTdkMDQ2MGVmYzg2MjciLCJleHAiOjE3ODM3MDExOTF9.Ok6ni_qyezK7qSmQR2T4dZe9Uv6MUvuqZbrJ1oIogY4axGpS_AHrDHpKWxi0oXcKqNka-g3sPU8_zV-Il9CWGVXI1egTkG4jm5PINrbmyjQQ9-IH1-mfNBxS1HAvdXzjKDmXPtTMpv9hG0rUH7NdwGQKE3TsbOMZnPueUFceNOXQPiAsJcMjF8sIDt0u74fLmxfeRjOC4qR9BJLgg-22oi6oIr1sOxnz_MIW4ZkEvyLmQOXAU5a85kZaFC9BoA9zD8FtEIn7MX7nxAPTIJIvUNz8TNK7fUuh9_ducmt_1CFJXuQ46mWt6TLO8nJJGVZsmXfCiOnFrVaSqArpixrQIA"
+            } ],
+            "stepsCount" : 2,
+            "hasContent" : true,
+            "attachmentsCount" : 4,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 3,
+          "hasContent" : true,
+          "attachmentsCount" : 4,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "GET getAlbums",
+          "time" : {
+            "start" : 1781109192383,
+            "stop" : 1781109192624,
+            "duration" : 241
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "✅ [2/2] Альбомы: Получение списка альбомов",
+            "time" : {
+              "start" : 1781109192383,
+              "stop" : 1781109192624,
+              "duration" : 241
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Валидация структуры массива",
+              "time" : {
+                "start" : 1781109192571,
+                "stop" : 1781109192624,
+                "duration" : 53
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Глубокая валидация ответа API",
+                "time" : {
+                  "start" : 1781109192571,
+                  "stop" : 1781109192572,
+                  "duration" : 1
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ {
+                  "uid" : "3fc339e617f915ad",
+                  "name" : "Валидация пройдена: getAlbums",
+                  "source" : "3fc339e617f915ad.txt",
+                  "type" : "text/plain",
+                  "size" : 106
+                } ],
+                "parameters" : [ {
+                  "name" : "response",
+                  "value" : "io.restassured.internal.RestAssuredResponseImpl@7d1b96b9"
+                }, {
+                  "name" : "endpointName",
+                  "value" : "getAlbums"
+                }, {
+                  "name" : "requiredFields",
+                  "value" : "null"
+                } ],
+                "stepsCount" : 0,
+                "hasContent" : true,
+                "attachmentsCount" : 1,
+                "shouldDisplayMessage" : false
+              } ],
+              "attachments" : [ {
+                "uid" : "af6e2a876f7669fd",
+                "name" : "Валидация массива пройдена: getAlbums",
+                "source" : "af6e2a876f7669fd.txt",
+                "type" : "text/plain",
+                "size" : 70
+              } ],
+              "parameters" : [ {
+                "name" : "response",
+                "value" : "io.restassured.internal.RestAssuredResponseImpl@7d1b96b9"
+              }, {
+                "name" : "endpointName",
+                "value" : "getAlbums"
+              }, {
+                "name" : "arrayPath",
+                "value" : "data.albums"
+              }, {
+                "name" : "itemRequiredFields",
+                "value" : "[id]"
+              } ],
+              "stepsCount" : 1,
+              "hasContent" : true,
+              "attachmentsCount" : 2,
+              "shouldDisplayMessage" : false
+            } ],
+            "attachments" : [ {
+              "uid" : "101bf9b2a4af12c",
+              "name" : "Request Log",
+              "source" : "101bf9b2a4af12c.txt",
+              "type" : "text/plain",
+              "size" : 758
+            }, {
+              "uid" : "8d388d618914b6e0",
+              "name" : "Response Log",
+              "source" : "8d388d618914b6e0.txt",
+              "type" : "text/plain",
+              "size" : 8213
+            }, {
+              "uid" : "89a2be9d9d447db8",
+              "name" : "Альбомы: getAlbums",
+              "source" : "89a2be9d9d447db8.txt",
+              "type" : "text/plain",
+              "size" : 34
+            } ],
+            "parameters" : [ {
+              "name" : "token",
+              "value" : "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcm9qZWN0X2d1aWQiOiI1ZWJlOWFkNDlkMjM0ODY1NTk3ZDRhMTkyOGVhNTliZSIsInVzZXJfZ3VpZCI6Ijg1ZDhjMjIwOGE2ZjQ4Yjk4ZDE3ZDA0NjBlZmM4NjI3IiwiY2xpZW50X2lkIjoiODVkOGMyMjA4YTZmNDhiOThkMTdkMDQ2MGVmYzg2MjciLCJleHAiOjE3ODM3MDExOTF9.Ok6ni_qyezK7qSmQR2T4dZe9Uv6MUvuqZbrJ1oIogY4axGpS_AHrDHpKWxi0oXcKqNka-g3sPU8_zV-Il9CWGVXI1egTkG4jm5PINrbmyjQQ9-IH1-mfNBxS1HAvdXzjKDmXPtTMpv9hG0rUH7NdwGQKE3TsbOMZnPueUFceNOXQPiAsJcMjF8sIDt0u74fLmxfeRjOC4qR9BJLgg-22oi6oIr1sOxnz_MIW4ZkEvyLmQOXAU5a85kZaFC9BoA9zD8FtEIn7MX7nxAPTIJIvUNz8TNK7fUuh9_ducmt_1CFJXuQ46mWt6TLO8nJJGVZsmXfCiOnFrVaSqArpixrQIA"
+            } ],
+            "stepsCount" : 2,
+            "hasContent" : true,
+            "attachmentsCount" : 5,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 3,
+          "hasContent" : true,
+          "attachmentsCount" : 5,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcm9qZWN0X2d1aWQiOiI1ZWJlOWFkNDlkMjM0ODY1NTk3ZDRhMTkyOGVhNTliZSIsInVzZXJfZ3VpZCI6Ijg1ZDhjMjIwOGE2ZjQ4Yjk4ZDE3ZDA0NjBlZmM4NjI3IiwiY2xpZW50X2lkIjoiODVkOGMyMjA4YTZmNDhiOThkMTdkMDQ2MGVmYzg2MjciLCJleHAiOjE3ODM3MDExOTF9.Ok6ni_qyezK7qSmQR2T4dZe9Uv6MUvuqZbrJ1oIogY4axGpS_AHrDHpKWxi0oXcKqNka-g3sPU8_zV-Il9CWGVXI1egTkG4jm5PINrbmyjQQ9-IH1-mfNBxS1HAvdXzjKDmXPtTMpv9hG0rUH7NdwGQKE3TsbOMZnPueUFceNOXQPiAsJcMjF8sIDt0u74fLmxfeRjOC4qR9BJLgg-22oi6oIr1sOxnz_MIW4ZkEvyLmQOXAU5a85kZaFC9BoA9zD8FtEIn7MX7nxAPTIJIvUNz8TNK7fUuh9_ducmt_1CFJXuQ46mWt6TLO8nJJGVZsmXfCiOnFrVaSqArpixrQIA"
+        }, {
+          "name" : "summary",
+          "value" : "[repeat order — OK, tesserae — OK, have_unread — OK, banners — OK]"
+        } ],
+        "stepsCount" : 8,
+        "hasContent" : true,
+        "attachmentsCount" : 9,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Макеты — getUserMakets",
+        "time" : {
+          "start" : 1781109192624,
+          "stop" : 1781109201221,
+          "duration" : 8597
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "GET getUserMakets",
+          "time" : {
+            "start" : 1781109192624,
+            "stop" : 1781109201221,
+            "duration" : 8597
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "✅ Макеты: Получение getUserMakets",
+            "time" : {
+              "start" : 1781109192624,
+              "stop" : 1781109201221,
+              "duration" : 8597
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Глубокая валидация ответа API",
+              "time" : {
+                "start" : 1781109201198,
+                "stop" : 1781109201220,
+                "duration" : 22
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "9d01b1bd0f2270ee",
+                "name" : "Валидация пройдена: getUserMakets",
+                "source" : "9d01b1bd0f2270ee.txt",
+                "type" : "text/plain",
+                "size" : 105
+              } ],
+              "parameters" : [ {
+                "name" : "response",
+                "value" : "io.restassured.internal.RestAssuredResponseImpl@7127f04b"
+              }, {
+                "name" : "endpointName",
+                "value" : "getUserMakets"
+              }, {
+                "name" : "requiredFields",
+                "value" : "[data]"
+              } ],
+              "stepsCount" : 0,
+              "hasContent" : true,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false
+            } ],
+            "attachments" : [ {
+              "uid" : "1c8163bb2e6871c7",
+              "name" : "Request Log",
+              "source" : "1c8163bb2e6871c7.txt",
+              "type" : "text/plain",
+              "size" : 760
+            }, {
+              "uid" : "ca1c2ba4ecf904a5",
+              "name" : "Response Log",
+              "source" : "ca1c2ba4ecf904a5.txt",
+              "type" : "text/plain",
+              "size" : 30737
+            }, {
+              "uid" : "ecdac2e87545e6c9",
+              "name" : "Макеты: getUserMakets",
+              "source" : "ecdac2e87545e6c9.txt",
+              "type" : "text/plain",
+              "size" : 30683
+            } ],
+            "parameters" : [ {
+              "name" : "token",
+              "value" : "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcm9qZWN0X2d1aWQiOiI1ZWJlOWFkNDlkMjM0ODY1NTk3ZDRhMTkyOGVhNTliZSIsInVzZXJfZ3VpZCI6Ijg1ZDhjMjIwOGE2ZjQ4Yjk4ZDE3ZDA0NjBlZmM4NjI3IiwiY2xpZW50X2lkIjoiODVkOGMyMjA4YTZmNDhiOThkMTdkMDQ2MGVmYzg2MjciLCJleHAiOjE3ODM3MDExOTF9.Ok6ni_qyezK7qSmQR2T4dZe9Uv6MUvuqZbrJ1oIogY4axGpS_AHrDHpKWxi0oXcKqNka-g3sPU8_zV-Il9CWGVXI1egTkG4jm5PINrbmyjQQ9-IH1-mfNBxS1HAvdXzjKDmXPtTMpv9hG0rUH7NdwGQKE3TsbOMZnPueUFceNOXQPiAsJcMjF8sIDt0u74fLmxfeRjOC4qR9BJLgg-22oi6oIr1sOxnz_MIW4ZkEvyLmQOXAU5a85kZaFC9BoA9zD8FtEIn7MX7nxAPTIJIvUNz8TNK7fUuh9_ducmt_1CFJXuQ46mWt6TLO8nJJGVZsmXfCiOnFrVaSqArpixrQIA"
+            } ],
+            "stepsCount" : 1,
+            "hasContent" : true,
+            "attachmentsCount" : 4,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 2,
+          "hasContent" : true,
+          "attachmentsCount" : 4,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcm9qZWN0X2d1aWQiOiI1ZWJlOWFkNDlkMjM0ODY1NTk3ZDRhMTkyOGVhNTliZSIsInVzZXJfZ3VpZCI6Ijg1ZDhjMjIwOGE2ZjQ4Yjk4ZDE3ZDA0NjBlZmM4NjI3IiwiY2xpZW50X2lkIjoiODVkOGMyMjA4YTZmNDhiOThkMTdkMDQ2MGVmYzg2MjciLCJleHAiOjE3ODM3MDExOTF9.Ok6ni_qyezK7qSmQR2T4dZe9Uv6MUvuqZbrJ1oIogY4axGpS_AHrDHpKWxi0oXcKqNka-g3sPU8_zV-Il9CWGVXI1egTkG4jm5PINrbmyjQQ9-IH1-mfNBxS1HAvdXzjKDmXPtTMpv9hG0rUH7NdwGQKE3TsbOMZnPueUFceNOXQPiAsJcMjF8sIDt0u74fLmxfeRjOC4qR9BJLgg-22oi6oIr1sOxnz_MIW4ZkEvyLmQOXAU5a85kZaFC9BoA9zD8FtEIn7MX7nxAPTIJIvUNz8TNK7fUuh9_ducmt_1CFJXuQ46mWt6TLO8nJJGVZsmXfCiOnFrVaSqArpixrQIA"
+        }, {
+          "name" : "summary",
+          "value" : "[repeat order — OK, tesserae — OK, have_unread — OK, banners — OK, timeline/grouped — OK, getAlbums — OK]"
+        } ],
+        "stepsCount" : 3,
+        "hasContent" : true,
+        "attachmentsCount" : 4,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Корзина — GET cart/v2/content, DELETE deleteAllProducts",
+        "time" : {
+          "start" : 1781109201221,
+          "stop" : 1781109203506,
+          "duration" : 2285
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "GET cart/v2/content",
+          "time" : {
+            "start" : 1781109201221,
+            "stop" : 1781109202762,
+            "duration" : 1541
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "✅ Корзина: Получение cart/v2/content",
+            "time" : {
+              "start" : 1781109201221,
+              "stop" : 1781109202762,
+              "duration" : 1541
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Глубокая валидация ответа API",
+              "time" : {
+                "start" : 1781109202719,
+                "stop" : 1781109202762,
+                "duration" : 43
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "424c0113274bb758",
+                "name" : "Валидация пройдена: getCartV2Content",
+                "source" : "424c0113274bb758.txt",
+                "type" : "text/plain",
+                "size" : 132
+              } ],
+              "parameters" : [ {
+                "name" : "response",
+                "value" : "io.restassured.internal.RestAssuredResponseImpl@3feeab43"
+              }, {
+                "name" : "endpointName",
+                "value" : "getCartV2Content"
+              }, {
+                "name" : "requiredFields",
+                "value" : "[products, total_prices, delivery]"
+              } ],
+              "stepsCount" : 0,
+              "hasContent" : true,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false
+            } ],
+            "attachments" : [ {
+              "uid" : "f680f86f667ff801",
+              "name" : "Request Log",
+              "source" : "f680f86f667ff801.txt",
+              "type" : "text/plain",
+              "size" : 707
+            }, {
+              "uid" : "35208ddc437754cd",
+              "name" : "Response Log",
+              "source" : "35208ddc437754cd.txt",
+              "type" : "text/plain",
+              "size" : 4863
+            }, {
+              "uid" : "d682423d6ade92b3",
+              "name" : "Корзина: cart/v2/content",
+              "source" : "d682423d6ade92b3.txt",
+              "type" : "text/plain",
+              "size" : 4809
+            } ],
+            "parameters" : [ {
+              "name" : "token",
+              "value" : "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcm9qZWN0X2d1aWQiOiI1ZWJlOWFkNDlkMjM0ODY1NTk3ZDRhMTkyOGVhNTliZSIsInVzZXJfZ3VpZCI6Ijg1ZDhjMjIwOGE2ZjQ4Yjk4ZDE3ZDA0NjBlZmM4NjI3IiwiY2xpZW50X2lkIjoiODVkOGMyMjA4YTZmNDhiOThkMTdkMDQ2MGVmYzg2MjciLCJleHAiOjE3ODM3MDExOTF9.Ok6ni_qyezK7qSmQR2T4dZe9Uv6MUvuqZbrJ1oIogY4axGpS_AHrDHpKWxi0oXcKqNka-g3sPU8_zV-Il9CWGVXI1egTkG4jm5PINrbmyjQQ9-IH1-mfNBxS1HAvdXzjKDmXPtTMpv9hG0rUH7NdwGQKE3TsbOMZnPueUFceNOXQPiAsJcMjF8sIDt0u74fLmxfeRjOC4qR9BJLgg-22oi6oIr1sOxnz_MIW4ZkEvyLmQOXAU5a85kZaFC9BoA9zD8FtEIn7MX7nxAPTIJIvUNz8TNK7fUuh9_ducmt_1CFJXuQ46mWt6TLO8nJJGVZsmXfCiOnFrVaSqArpixrQIA"
+            } ],
+            "stepsCount" : 1,
+            "hasContent" : true,
+            "attachmentsCount" : 4,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 2,
+          "hasContent" : true,
+          "attachmentsCount" : 4,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "DELETE deleteAllProducts",
+          "time" : {
+            "start" : 1781109202762,
+            "stop" : 1781109203506,
+            "duration" : 744
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "✅ Корзина: Удаление всех продуктов",
+            "time" : {
+              "start" : 1781109202763,
+              "stop" : 1781109203506,
+              "duration" : 743
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "66ade9599669ab18",
+              "name" : "Request Log",
+              "source" : "66ade9599669ab18.txt",
+              "type" : "text/plain",
+              "size" : 720
+            }, {
+              "uid" : "bbdeda43a1daf465",
+              "name" : "Response Log",
+              "source" : "bbdeda43a1daf465.txt",
+              "type" : "text/plain",
+              "size" : 54
+            }, {
+              "uid" : "ca27ceffc25c0791",
+              "name" : "Корзина: deleteAllProducts",
+              "source" : "ca27ceffc25c0791.txt",
+              "type" : "text/plain",
+              "size" : 16
+            } ],
+            "parameters" : [ {
+              "name" : "token",
+              "value" : "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcm9qZWN0X2d1aWQiOiI1ZWJlOWFkNDlkMjM0ODY1NTk3ZDRhMTkyOGVhNTliZSIsInVzZXJfZ3VpZCI6Ijg1ZDhjMjIwOGE2ZjQ4Yjk4ZDE3ZDA0NjBlZmM4NjI3IiwiY2xpZW50X2lkIjoiODVkOGMyMjA4YTZmNDhiOThkMTdkMDQ2MGVmYzg2MjciLCJleHAiOjE3ODM3MDExOTF9.Ok6ni_qyezK7qSmQR2T4dZe9Uv6MUvuqZbrJ1oIogY4axGpS_AHrDHpKWxi0oXcKqNka-g3sPU8_zV-Il9CWGVXI1egTkG4jm5PINrbmyjQQ9-IH1-mfNBxS1HAvdXzjKDmXPtTMpv9hG0rUH7NdwGQKE3TsbOMZnPueUFceNOXQPiAsJcMjF8sIDt0u74fLmxfeRjOC4qR9BJLgg-22oi6oIr1sOxnz_MIW4ZkEvyLmQOXAU5a85kZaFC9BoA9zD8FtEIn7MX7nxAPTIJIvUNz8TNK7fUuh9_ducmt_1CFJXuQ46mWt6TLO8nJJGVZsmXfCiOnFrVaSqArpixrQIA"
+            } ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 3,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "hasContent" : true,
+          "attachmentsCount" : 3,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "token",
+          "value" : "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcm9qZWN0X2d1aWQiOiI1ZWJlOWFkNDlkMjM0ODY1NTk3ZDRhMTkyOGVhNTliZSIsInVzZXJfZ3VpZCI6Ijg1ZDhjMjIwOGE2ZjQ4Yjk4ZDE3ZDA0NjBlZmM4NjI3IiwiY2xpZW50X2lkIjoiODVkOGMyMjA4YTZmNDhiOThkMTdkMDQ2MGVmYzg2MjciLCJleHAiOjE3ODM3MDExOTF9.Ok6ni_qyezK7qSmQR2T4dZe9Uv6MUvuqZbrJ1oIogY4axGpS_AHrDHpKWxi0oXcKqNka-g3sPU8_zV-Il9CWGVXI1egTkG4jm5PINrbmyjQQ9-IH1-mfNBxS1HAvdXzjKDmXPtTMpv9hG0rUH7NdwGQKE3TsbOMZnPueUFceNOXQPiAsJcMjF8sIDt0u74fLmxfeRjOC4qR9BJLgg-22oi6oIr1sOxnz_MIW4ZkEvyLmQOXAU5a85kZaFC9BoA9zD8FtEIn7MX7nxAPTIJIvUNz8TNK7fUuh9_ducmt_1CFJXuQ46mWt6TLO8nJJGVZsmXfCiOnFrVaSqArpixrQIA"
+        }, {
+          "name" : "summary",
+          "value" : "[repeat order — OK, tesserae — OK, have_unread — OK, banners — OK, timeline/grouped — OK, getAlbums — OK, getUserMakets — OK]"
+        } ],
+        "stepsCount" : 5,
+        "hasContent" : true,
+        "attachmentsCount" : 7,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "3b51f0a7980219b1",
+        "name" : "Детальный отчет",
+        "source" : "3b51f0a7980219b1.txt",
+        "type" : "text/plain",
+        "size" : 1648
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 39,
+      "hasContent" : true,
+      "attachmentsCount" : 41,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 40,
+    "hasContent" : true,
+    "attachmentsCount" : 41,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "m4.foto.local"
+  }, {
+    "name" : "thread",
+    "value" : "18980@m4.foto.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.netprintweb.rest.TestCheckout"
+  }, {
+    "name" : "testClass",
+    "value" : "com.netprintweb.rest.TestCheckout"
+  }, {
+    "name" : "testMethod",
+    "value" : "RestTest"
+  }, {
+    "name" : "suite",
+    "value" : "com.netprintweb.rest.TestCheckout"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7ead2fd518215f7.json",
+  "parameterValues" : [ ]
+}
