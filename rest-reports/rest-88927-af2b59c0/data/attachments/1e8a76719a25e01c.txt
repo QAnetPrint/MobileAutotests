@@ -1,0 +1,29 @@
+🚨 <b>ОШИБКА В РЕГРЕССЕ БЭКА</b>
+
+⏰ <b>Время:</b> 2026-06-14 01:33:19
+🧪 <b>Тест:</b> RestTest
+📝 <b>Метод:</b> getTimelineGroupedToday
+🔗 <b>URL:</b> https://api.netprint.ru/photo/timeline/v1/public/users/85d8c2208a6f48b98d17d0460efc8627/timeline/grouped?from=1970-01-01&to=2026-06-14&limit=10000
+📊 <b>HTTP статус:</b> 500 (Internal Server Error)
+
+📦 <b>Тело запроса:</b>
+<code>(пусто)</code>
+
+🔧 <b>CURL для воспроизведения:</b>
+<code>curl -X GET 'https://api.netprint.ru/photo/timeline/v1/public/users/85d8c2208a6f48b98d17d0460efc8627/timeline/grouped?from=1970-01-01&to=2026-06-14&limit=10000' \
+  -H 'Host: api.netprint.ru' \
+  -H 'Content-Type: application/json' \
+  -H 'X-Device-Type: IOS' \
+  -H 'Accept: application/json' \
+  -H 'X-Auth-Source: mobile_app' \
+  -H 'Accept-Language: en-GB,en-US;q=0.9,en;q=0.8' \
+  -H 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcm9qZWN0X2d1aWQiOiI1ZWJlOWFkNDlkMjM0ODY1NTk3ZDRhMTkyOGVhNTliZSIsInVzZXJfZ3VpZCI6Ijg1ZDhjMjIwOGE2ZjQ4Yjk4ZDE3ZDA0NjBlZmM4NjI3IiwiY2xpZW50X2lkIjoiODVkOGMyMjA4YTZmNDhiOThkMTdkMDQ2MGVmYzg2MjciLCJleHAiOjE3ODM5ODE5OTR9.aZR01bXqlY6OM3D1jI1I-13p_0ZxIispeR3O3jN-d2jF4guKyVn1KEDhbfbSQ2L-ka7GnP0nsCcoMSQ5x8YW0Vj3zyPD3lpxbo4NfFnqih0Sk3BPiP5lqXo0fs9wyuTsehU_zSIOM96w7hmvAaz2Ke9bHC_s4pC847NZo9YoiD_yQ-7Rh669aiIVVVOTVT83Tkumesn_nJh4mKoG-iOO7RO9_s7EPp_MfioHN9AvYIDE3PJV51ruYvQpweS7U38pN3dEA3WBLTrkvoUhvRMKdYeHhnOOVKDQVXFph9ENSlYHYnk7PE_MlQJp5i_iBgbPjJgA48RMrDrzjV0_agdlMw' \
+  -H 'User-Agent: NetPrint/70202 CFNetwork/1496.0.7 Darwin/23.1.0'</code>
+
+📄 <b>Ответ сервера:</b>
+<code>{"errors":[{"code":"2", "message":"common.external_error: unable to create connection to tarantool, cause: dial tcp 192.168.250.225:3310: i/o timeout", "title":""}]}</code>
+
+💡 <b>Рекомендации:</b>
+1. Проверить доступность эндпоинта
+2. Проверить корректность токена авторизации
+3. Проверить логику метода на стороне бэкенда
