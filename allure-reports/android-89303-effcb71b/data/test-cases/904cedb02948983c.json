@@ -1,0 +1,1418 @@
+{
+  "uid" : "904cedb02948983c",
+  "name" : "deletingAlbum()",
+  "fullName" : "testsAndroid.AlbumsPageTestsAndroid.deletingAlbum",
+  "historyId" : "34d5a344d2be4f978d4ffc8fc16934c4",
+  "time" : {
+    "start" : 1781590441609,
+    "stop" : 1781590502460,
+    "duration" : 60851
+  },
+  "description" : "Создаём альбом и удаляем его из списка.",
+  "descriptionHtml" : "<p>Создаём альбом и удаляем его из списка.</p>\n",
+  "status" : "failed",
+  "statusMessage" : "Element should not exist {By.xpath: //android.widget.TextView[@resource-id=\"com.photoholding.android.mobile.v3:id/title\" and @text=\"new album\"]}\nElement: '<TextView resource-id=\"com.photoholding.android.mobile.v3:id/title\" checked=\"false\" content-desc=\"null\" enabled=\"true\" focused=\"false\" package=\"com.photoholding.android.mobile.v3\" name=\"new album\" className=\"android.widget.TextView\" bounds=\"[84,740][367,786]\" displayed=\"true\">new album</TextView>'\nActual value: exists\nScreenshot: file:/Users/tester/Library/LaunchAgents/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1781590501778.5.png\nPage source: file:/Users/tester/Library/LaunchAgents/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1781590501778.5.xml\nTimeout: 4 s.",
+  "statusTrace" : "Element should not exist {By.xpath: //android.widget.TextView[@resource-id=\"com.photoholding.android.mobile.v3:id/title\" and @text=\"new album\"]}\nElement: '<TextView resource-id=\"com.photoholding.android.mobile.v3:id/title\" checked=\"false\" content-desc=\"null\" enabled=\"true\" focused=\"false\" package=\"com.photoholding.android.mobile.v3\" name=\"new album\" className=\"android.widget.TextView\" bounds=\"[84,740][367,786]\" displayed=\"true\">new album</TextView>'\nActual value: exists\nScreenshot: file:/Users/tester/Library/LaunchAgents/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1781590501778.5.png\nPage source: file:/Users/tester/Library/LaunchAgents/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1781590501778.5.xml\nTimeout: 4 s.\n\tat com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:144)\n\tat com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:125)\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:102)\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:162)\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:134)\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:86)\n\tat jdk.proxy2/jdk.proxy2.$Proxy28.shouldNot(Unknown Source)\n\tat robotsAndroid.AlbumsRobotAndroid.lambda$verificationThatAlbumHasBeenDeleted$1(AlbumsRobotAndroid.java:2441)\n\tat io.qameta.allure.Allure.lambda$step$1(Allure.java:127)\n\tat io.qameta.allure.Allure.step(Allure.java:181)\n\tat io.qameta.allure.Allure.step(Allure.java:125)\n\tat robotsAndroid.AlbumsRobotAndroid.verificationThatAlbumHasBeenDeleted(AlbumsRobotAndroid.java:2440)\n\tat testsAndroid.AlbumsPageTestsAndroid.deletingAlbum(AlbumsPageTestsAndroid.java:155)\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:565)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.engine.extension.TimeoutInvocation.proceed(TimeoutInvocation.java:46)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1604)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1604)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)\n\tat org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Создаём альбом и удаляем его из списка.",
+    "status" : "failed",
+    "statusMessage" : "Element should not exist {By.xpath: //android.widget.TextView[@resource-id=\"com.photoholding.android.mobile.v3:id/title\" and @text=\"new album\"]}\nElement: '<TextView resource-id=\"com.photoholding.android.mobile.v3:id/title\" checked=\"false\" content-desc=\"null\" enabled=\"true\" focused=\"false\" package=\"com.photoholding.android.mobile.v3\" name=\"new album\" className=\"android.widget.TextView\" bounds=\"[84,740][367,786]\" displayed=\"true\">new album</TextView>'\nActual value: exists\nScreenshot: file:/Users/tester/Library/LaunchAgents/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1781590501778.5.png\nPage source: file:/Users/tester/Library/LaunchAgents/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1781590501778.5.xml\nTimeout: 4 s.",
+    "statusTrace" : "Element should not exist {By.xpath: //android.widget.TextView[@resource-id=\"com.photoholding.android.mobile.v3:id/title\" and @text=\"new album\"]}\nElement: '<TextView resource-id=\"com.photoholding.android.mobile.v3:id/title\" checked=\"false\" content-desc=\"null\" enabled=\"true\" focused=\"false\" package=\"com.photoholding.android.mobile.v3\" name=\"new album\" className=\"android.widget.TextView\" bounds=\"[84,740][367,786]\" displayed=\"true\">new album</TextView>'\nActual value: exists\nScreenshot: file:/Users/tester/Library/LaunchAgents/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1781590501778.5.png\nPage source: file:/Users/tester/Library/LaunchAgents/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1781590501778.5.xml\nTimeout: 4 s.\n\tat com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:144)\n\tat com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:125)\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:102)\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:162)\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:134)\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:86)\n\tat jdk.proxy2/jdk.proxy2.$Proxy28.shouldNot(Unknown Source)\n\tat robotsAndroid.AlbumsRobotAndroid.lambda$verificationThatAlbumHasBeenDeleted$1(AlbumsRobotAndroid.java:2441)\n\tat io.qameta.allure.Allure.lambda$step$1(Allure.java:127)\n\tat io.qameta.allure.Allure.step(Allure.java:181)\n\tat io.qameta.allure.Allure.step(Allure.java:125)\n\tat robotsAndroid.AlbumsRobotAndroid.verificationThatAlbumHasBeenDeleted(AlbumsRobotAndroid.java:2440)\n\tat testsAndroid.AlbumsPageTestsAndroid.deletingAlbum(AlbumsPageTestsAndroid.java:155)\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:565)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.engine.extension.TimeoutInvocation.proceed(TimeoutInvocation.java:46)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1604)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1604)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)\n\tat org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)\n",
+    "steps" : [ {
+      "name" : "Пропуск онбординга",
+      "time" : {
+        "start" : 1781590444091,
+        "stop" : 1781590448112,
+        "duration" : 4021
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ожидание загрузки экрана онбординга",
+        "time" : {
+          "start" : 1781590444091,
+          "stop" : 1781590445700,
+          "duration" : 1609
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Нажатие кнопки 'Пропустить'",
+        "time" : {
+          "start" : 1781590445700,
+          "stop" : 1781590447172,
+          "duration" : 1472
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Проверка перехода в каталог",
+        "time" : {
+          "start" : 1781590447172,
+          "stop" : 1781590447458,
+          "duration" : 286
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "f4f1825ab161773e",
+        "name" : "Android skip onboarding",
+        "source" : "f4f1825ab161773e.png",
+        "type" : "image/png",
+        "size" : 1026964
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "Открытие раздела профиля (Незарегистрированный пользователь)",
+      "time" : {
+        "start" : 1781590448112,
+        "stop" : 1781590449334,
+        "duration" : 1222
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ищем и нажимаем кнопку «Профиль»",
+        "time" : {
+          "start" : 1781590448112,
+          "stop" : 1781590448818,
+          "duration" : 706
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Проверяем опцию входа или выполняем выход",
+        "time" : {
+          "start" : 1781590448818,
+          "stop" : 1781590448942,
+          "duration" : 124
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Скриншот",
+        "time" : {
+          "start" : 1781590448942,
+          "stop" : 1781590449334,
+          "duration" : 392
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d6202682b8a18d8",
+          "name" : "Открытие раздела профиля",
+          "source" : "d6202682b8a18d8.png",
+          "type" : "image/png",
+          "size" : 125109
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "Вход в аккаунт",
+      "time" : {
+        "start" : 1781590449375,
+        "stop" : 1781590450752,
+        "duration" : 1377
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ищем и нажимаем кнопку «Войти»",
+        "time" : {
+          "start" : 1781590449376,
+          "stop" : 1781590449586,
+          "duration" : 210
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Проверяем экран подтверждения входа",
+        "time" : {
+          "start" : 1781590449586,
+          "stop" : 1781590450420,
+          "duration" : 834
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Скриншот",
+        "time" : {
+          "start" : 1781590450420,
+          "stop" : 1781590450752,
+          "duration" : 332
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "223dcd4897233c9",
+          "name" : "Вход в аккаунт",
+          "source" : "223dcd4897233c9.png",
+          "type" : "image/png",
+          "size" : 100603
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка входа по электронной почте",
+      "time" : {
+        "start" : 1781590450752,
+        "stop" : 1781590458868,
+        "duration" : 8116
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ожидание и нажатие «Почта»",
+        "time" : {
+          "start" : 1781590450752,
+          "stop" : 1781590452924,
+          "duration" : 2172
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Читаем учётные данные и вводим логин/пароль",
+        "time" : {
+          "start" : 1781590452924,
+          "stop" : 1781590456722,
+          "duration" : 3798
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Закрываем «Не сейчас» при необходимости",
+        "time" : {
+          "start" : 1781590456722,
+          "stop" : 1781590458511,
+          "duration" : 1789
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Скриншот",
+        "time" : {
+          "start" : 1781590458511,
+          "stop" : 1781590458868,
+          "duration" : 357
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "df8570e88e63a7fc",
+          "name" : "Ввод данных",
+          "source" : "df8570e88e63a7fc.png",
+          "type" : "image/png",
+          "size" : 163374
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "Открытие страницы альбомов",
+      "time" : {
+        "start" : 1781590458868,
+        "stop" : 1781590460951,
+        "duration" : 2083
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открываем страницу «Альбомы»",
+        "time" : {
+          "start" : 1781590458868,
+          "stop" : 1781590460542,
+          "duration" : 1674
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Проверяем, что отображается кнопка «Создать новый альбом»",
+        "time" : {
+          "start" : 1781590460542,
+          "stop" : 1781590460588,
+          "duration" : 46
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Делаем скриншот страницы альбомов",
+        "time" : {
+          "start" : 1781590460588,
+          "stop" : 1781590460951,
+          "duration" : 363
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f32bac9cf9027356",
+          "name" : "Страница альбомов загружена",
+          "source" : "f32bac9cf9027356.png",
+          "type" : "image/png",
+          "size" : 107481
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "Обработка системного запроса разрешений: «Разрешить полный доступ»",
+      "time" : {
+        "start" : 1781590460951,
+        "stop" : 1781590461725,
+        "duration" : 774
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Проверяем наличие баннера разрешений",
+        "time" : {
+          "start" : 1781590460951,
+          "stop" : 1781590461360,
+          "duration" : 409
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Баннер разрешений не отображается",
+          "time" : {
+            "start" : 1781590461360,
+            "stop" : 1781590461360,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ {
+          "uid" : "5ad78a5d6f365a8",
+          "name" : "Баннер разрешений — проверка наличия",
+          "source" : "5ad78a5d6f365a8.png",
+          "type" : "image/png",
+          "size" : 107481
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "Делаем скриншот после обработки системного запроса",
+        "time" : {
+          "start" : 1781590461360,
+          "stop" : 1781590461725,
+          "duration" : 365
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ea094c0bfe79ee7c",
+          "name" : "Обработка системного запроса завершена",
+          "source" : "ea094c0bfe79ee7c.png",
+          "type" : "image/png",
+          "size" : 107481
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление альбома",
+      "time" : {
+        "start" : 1781590461739,
+        "stop" : 1781590501950,
+        "duration" : 40211
+      },
+      "status" : "failed",
+      "statusMessage" : "Element should not exist {By.xpath: //android.widget.TextView[@resource-id=\"com.photoholding.android.mobile.v3:id/title\" and @text=\"new album\"]}\nElement: '<TextView resource-id=\"com.photoholding.android.mobile.v3:id/title\" checked=\"false\" content-desc=\"null\" enabled=\"true\" focused=\"false\" package=\"com.photoholding.android.mobile.v3\" name=\"new album\" className=\"android.widget.TextView\" bounds=\"[84,740][367,786]\" displayed=\"true\">new album</TextView>'\nActual value: exists\nScreenshot: file:/Users/tester/Library/LaunchAgents/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1781590501778.5.png\nPage source: file:/Users/tester/Library/LaunchAgents/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1781590501778.5.xml\nTimeout: 4 s.",
+      "statusTrace" : "Element should not exist {By.xpath: //android.widget.TextView[@resource-id=\"com.photoholding.android.mobile.v3:id/title\" and @text=\"new album\"]}\nElement: '<TextView resource-id=\"com.photoholding.android.mobile.v3:id/title\" checked=\"false\" content-desc=\"null\" enabled=\"true\" focused=\"false\" package=\"com.photoholding.android.mobile.v3\" name=\"new album\" className=\"android.widget.TextView\" bounds=\"[84,740][367,786]\" displayed=\"true\">new album</TextView>'\nActual value: exists\nScreenshot: file:/Users/tester/Library/LaunchAgents/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1781590501778.5.png\nPage source: file:/Users/tester/Library/LaunchAgents/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1781590501778.5.xml\nTimeout: 4 s.\n\tat com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:144)\n\tat com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:125)\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:102)\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:162)\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:134)\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:86)\n\tat jdk.proxy2/jdk.proxy2.$Proxy28.shouldNot(Unknown Source)\n\tat robotsAndroid.AlbumsRobotAndroid.lambda$verificationThatAlbumHasBeenDeleted$1(AlbumsRobotAndroid.java:2441)\n\tat io.qameta.allure.Allure.lambda$step$1(Allure.java:127)\n\tat io.qameta.allure.Allure.step(Allure.java:181)\n\tat io.qameta.allure.Allure.step(Allure.java:125)\n\tat robotsAndroid.AlbumsRobotAndroid.verificationThatAlbumHasBeenDeleted(AlbumsRobotAndroid.java:2440)\n\tat testsAndroid.AlbumsPageTestsAndroid.deletingAlbum(AlbumsPageTestsAndroid.java:155)\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:565)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.engine.extension.TimeoutInvocation.proceed(TimeoutInvocation.java:46)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1604)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1604)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)\n\tat org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)\n",
+      "steps" : [ {
+        "name" : "Создание нового альбома",
+        "time" : {
+          "start" : 1781590461739,
+          "stop" : 1781590466729,
+          "duration" : 4990
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Проверяем, что отображается кнопка «Создать новый альбом»",
+          "time" : {
+            "start" : 1781590461739,
+            "stop" : 1781590461775,
+            "duration" : 36
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Нажимаем кнопку «Создать новый альбом»",
+          "time" : {
+            "start" : 1781590461775,
+            "stop" : 1781590462492,
+            "duration" : 717
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Проверяем, что форма создания альбома открылась",
+          "time" : {
+            "start" : 1781590462492,
+            "stop" : 1781590462536,
+            "duration" : 44
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Открываем поле ввода названия альбома",
+          "time" : {
+            "start" : 1781590462536,
+            "stop" : 1781590462665,
+            "duration" : 129
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Очищаем поле названия альбома",
+          "time" : {
+            "start" : 1781590462665,
+            "stop" : 1781590463305,
+            "duration" : 640
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Вводим название нового альбома",
+          "time" : {
+            "start" : 1781590463306,
+            "stop" : 1781590463949,
+            "duration" : 643
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Подтверждаем создание альбома",
+          "time" : {
+            "start" : 1781590463949,
+            "stop" : 1781590465585,
+            "duration" : 1636
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Проверяем, что новый альбом отображается в списке",
+          "time" : {
+            "start" : 1781590465585,
+            "stop" : 1781590465630,
+            "duration" : 45
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Открываем созданный альбом",
+          "time" : {
+            "start" : 1781590465630,
+            "stop" : 1781590466371,
+            "duration" : 741
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Делаем скриншот созданного альбома",
+          "time" : {
+            "start" : 1781590466371,
+            "stop" : 1781590466729,
+            "duration" : 358
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "aaf563578ce89479",
+            "name" : "Создан новый альбом",
+            "source" : "aaf563578ce89479.png",
+            "type" : "image/png",
+            "size" : 90167
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 10,
+        "hasContent" : true
+      }, {
+        "name" : "Возврат назад до списка альбомов с количеством нажатий по умолчанию",
+        "time" : {
+          "start" : 1781590466729,
+          "stop" : 1781590468492,
+          "duration" : 1763
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Возврат назад до якорного экрана",
+          "time" : {
+            "start" : 1781590466729,
+            "stop" : 1781590468492,
+            "duration" : 1763
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Начинаем возврат до якорного экрана «Список альбомов»",
+            "time" : {
+              "start" : 1781590466729,
+              "stop" : 1781590466729,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : false
+          }, {
+            "name" : "Проверяем наличие якорного экрана перед нажатием «Назад» №1: экран не виден",
+            "time" : {
+              "start" : 1781590466749,
+              "stop" : 1781590466749,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : false
+          }, {
+            "name" : "Нажимаем кнопку «Назад» №1",
+            "time" : {
+              "start" : 1781590466749,
+              "stop" : 1781590467675,
+              "duration" : 926
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : false
+          }, {
+            "name" : "Проверяем наличие якорного экрана после нажатия «Назад» №1: экран найден",
+            "time" : {
+              "start" : 1781590468099,
+              "stop" : 1781590468099,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : false
+          }, {
+            "name" : "Якорный экран найден, завершаем возврат",
+            "time" : {
+              "start" : 1781590468099,
+              "stop" : 1781590468099,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : false
+          }, {
+            "name" : "Проверяем, что якорный экран отображается",
+            "time" : {
+              "start" : 1781590468099,
+              "stop" : 1781590468133,
+              "duration" : 34
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : false
+          }, {
+            "name" : "Делаем итоговый скриншот якорного экрана",
+            "time" : {
+              "start" : 1781590468133,
+              "stop" : 1781590468492,
+              "duration" : 359
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "5cb62de2ebd70dee",
+              "name" : "Открыт экран: «Список альбомов»",
+              "source" : "5cb62de2ebd70dee.png",
+              "type" : "image/png",
+              "size" : 108355
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "e32878bfb3fa7609",
+            "name" : "После Back #1",
+            "source" : "e32878bfb3fa7609.png",
+            "type" : "image/png",
+            "size" : 108355
+          } ],
+          "parameters" : [ {
+            "name" : "anchorSupplier",
+            "value" : "robotsAndroid.AlbumsRobotAndroid$$Lambda/0x00000ff0016aa280@21a48301"
+          }, {
+            "name" : "maxTaps",
+            "value" : "4"
+          }, {
+            "name" : "anchorName",
+            "value" : "Список альбомов"
+          } ],
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 7,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 8,
+        "hasContent" : true
+      }, {
+        "name" : "Удаление альбома",
+        "time" : {
+          "start" : 1781590468492,
+          "stop" : 1781590497074,
+          "duration" : 28582
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открываем меню альбома",
+          "time" : {
+            "start" : 1781590470617,
+            "stop" : 1781590471390,
+            "duration" : 773
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Проверяем, что отображается пункт «Переименовать»",
+          "time" : {
+            "start" : 1781590471391,
+            "stop" : 1781590471470,
+            "duration" : 79
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Нажимаем пункт «Удалить альбом»",
+          "time" : {
+            "start" : 1781590471470,
+            "stop" : 1781590472192,
+            "duration" : 722
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Проверяем, что открылось окно удаления альбома",
+          "time" : {
+            "start" : 1781590472192,
+            "stop" : 1781590472230,
+            "duration" : 38
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Подтверждаем удаление альбома",
+          "time" : {
+            "start" : 1781590472230,
+            "stop" : 1781590473256,
+            "duration" : 1026
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Открываем меню альбома",
+          "time" : {
+            "start" : 1781590475408,
+            "stop" : 1781590476135,
+            "duration" : 727
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Проверяем, что отображается пункт «Переименовать»",
+          "time" : {
+            "start" : 1781590476135,
+            "stop" : 1781590476191,
+            "duration" : 56
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Нажимаем пункт «Удалить альбом»",
+          "time" : {
+            "start" : 1781590476191,
+            "stop" : 1781590476889,
+            "duration" : 698
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Проверяем, что открылось окно удаления альбома",
+          "time" : {
+            "start" : 1781590476889,
+            "stop" : 1781590476920,
+            "duration" : 31
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Подтверждаем удаление альбома",
+          "time" : {
+            "start" : 1781590476920,
+            "stop" : 1781590477922,
+            "duration" : 1002
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Открываем меню альбома",
+          "time" : {
+            "start" : 1781590480123,
+            "stop" : 1781590480894,
+            "duration" : 771
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Проверяем, что отображается пункт «Переименовать»",
+          "time" : {
+            "start" : 1781590480894,
+            "stop" : 1781590480954,
+            "duration" : 60
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Нажимаем пункт «Удалить альбом»",
+          "time" : {
+            "start" : 1781590480954,
+            "stop" : 1781590481658,
+            "duration" : 704
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Проверяем, что открылось окно удаления альбома",
+          "time" : {
+            "start" : 1781590481658,
+            "stop" : 1781590481691,
+            "duration" : 33
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Подтверждаем удаление альбома",
+          "time" : {
+            "start" : 1781590481691,
+            "stop" : 1781590482706,
+            "duration" : 1015
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Открываем меню альбома",
+          "time" : {
+            "start" : 1781590484879,
+            "stop" : 1781590485603,
+            "duration" : 724
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Проверяем, что отображается пункт «Переименовать»",
+          "time" : {
+            "start" : 1781590485603,
+            "stop" : 1781590485667,
+            "duration" : 64
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Нажимаем пункт «Удалить альбом»",
+          "time" : {
+            "start" : 1781590485667,
+            "stop" : 1781590486370,
+            "duration" : 703
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Проверяем, что открылось окно удаления альбома",
+          "time" : {
+            "start" : 1781590486370,
+            "stop" : 1781590486402,
+            "duration" : 32
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Подтверждаем удаление альбома",
+          "time" : {
+            "start" : 1781590486402,
+            "stop" : 1781590487374,
+            "duration" : 972
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Открываем меню альбома",
+          "time" : {
+            "start" : 1781590489545,
+            "stop" : 1781590490273,
+            "duration" : 728
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Проверяем, что отображается пункт «Переименовать»",
+          "time" : {
+            "start" : 1781590490273,
+            "stop" : 1781590490345,
+            "duration" : 72
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Нажимаем пункт «Удалить альбом»",
+          "time" : {
+            "start" : 1781590490345,
+            "stop" : 1781590491054,
+            "duration" : 709
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Проверяем, что открылось окно удаления альбома",
+          "time" : {
+            "start" : 1781590491054,
+            "stop" : 1781590491090,
+            "duration" : 36
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Подтверждаем удаление альбома",
+          "time" : {
+            "start" : 1781590491090,
+            "stop" : 1781590492089,
+            "duration" : 999
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Открываем меню альбома",
+          "time" : {
+            "start" : 1781590494213,
+            "stop" : 1781590494902,
+            "duration" : 689
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Проверяем, что отображается пункт «Переименовать»",
+          "time" : {
+            "start" : 1781590494902,
+            "stop" : 1781590494958,
+            "duration" : 56
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Нажимаем пункт «Удалить альбом»",
+          "time" : {
+            "start" : 1781590494958,
+            "stop" : 1781590495653,
+            "duration" : 695
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Проверяем, что открылось окно удаления альбома",
+          "time" : {
+            "start" : 1781590495653,
+            "stop" : 1781590495682,
+            "duration" : 29
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Подтверждаем удаление альбома",
+          "time" : {
+            "start" : 1781590495682,
+            "stop" : 1781590496673,
+            "duration" : 991
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Проверяем, что отображается кнопка «Создать новый альбом»",
+          "time" : {
+            "start" : 1781590496673,
+            "stop" : 1781590496737,
+            "duration" : 64
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Делаем скриншот после удаления альбома",
+          "time" : {
+            "start" : 1781590496738,
+            "stop" : 1781590497074,
+            "duration" : 336
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "e027131febdf1da8",
+            "name" : "Все альбомы удалены",
+            "source" : "e027131febdf1da8.png",
+            "type" : "image/png",
+            "size" : 106306
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 32,
+        "hasContent" : true
+      }, {
+        "name" : "Проверка удаления альбома",
+        "time" : {
+          "start" : 1781590497076,
+          "stop" : 1781590501950,
+          "duration" : 4874
+        },
+        "status" : "failed",
+        "statusMessage" : "Element should not exist {By.xpath: //android.widget.TextView[@resource-id=\"com.photoholding.android.mobile.v3:id/title\" and @text=\"new album\"]}\nElement: '<TextView resource-id=\"com.photoholding.android.mobile.v3:id/title\" checked=\"false\" content-desc=\"null\" enabled=\"true\" focused=\"false\" package=\"com.photoholding.android.mobile.v3\" name=\"new album\" className=\"android.widget.TextView\" bounds=\"[84,740][367,786]\" displayed=\"true\">new album</TextView>'\nActual value: exists\nScreenshot: file:/Users/tester/Library/LaunchAgents/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1781590501778.5.png\nPage source: file:/Users/tester/Library/LaunchAgents/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1781590501778.5.xml\nTimeout: 4 s.",
+        "statusTrace" : "Element should not exist {By.xpath: //android.widget.TextView[@resource-id=\"com.photoholding.android.mobile.v3:id/title\" and @text=\"new album\"]}\nElement: '<TextView resource-id=\"com.photoholding.android.mobile.v3:id/title\" checked=\"false\" content-desc=\"null\" enabled=\"true\" focused=\"false\" package=\"com.photoholding.android.mobile.v3\" name=\"new album\" className=\"android.widget.TextView\" bounds=\"[84,740][367,786]\" displayed=\"true\">new album</TextView>'\nActual value: exists\nScreenshot: file:/Users/tester/Library/LaunchAgents/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1781590501778.5.png\nPage source: file:/Users/tester/Library/LaunchAgents/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1781590501778.5.xml\nTimeout: 4 s.\n\tat com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:144)\n\tat com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:125)\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:102)\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:162)\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:134)\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:86)\n\tat jdk.proxy2/jdk.proxy2.$Proxy28.shouldNot(Unknown Source)\n\tat robotsAndroid.AlbumsRobotAndroid.lambda$verificationThatAlbumHasBeenDeleted$1(AlbumsRobotAndroid.java:2441)\n\tat io.qameta.allure.Allure.lambda$step$1(Allure.java:127)\n\tat io.qameta.allure.Allure.step(Allure.java:181)\n\tat io.qameta.allure.Allure.step(Allure.java:125)\n\tat robotsAndroid.AlbumsRobotAndroid.verificationThatAlbumHasBeenDeleted(AlbumsRobotAndroid.java:2440)\n\tat testsAndroid.AlbumsPageTestsAndroid.deletingAlbum(AlbumsPageTestsAndroid.java:155)\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:565)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.engine.extension.TimeoutInvocation.proceed(TimeoutInvocation.java:46)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1604)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1604)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)\n\tat org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)\n",
+        "steps" : [ {
+          "name" : "Проверяем, что отображается якорный элемент списка альбомов",
+          "time" : {
+            "start" : 1781590497078,
+            "stop" : 1781590497113,
+            "duration" : 35
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Проверяем, что отображается: кнопка «Создать новый альбом»",
+            "time" : {
+              "start" : 1781590497078,
+              "stop" : 1781590497113,
+              "duration" : 35
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 1,
+          "hasContent" : true
+        }, {
+          "name" : "Проверяем, что плитка «new album» больше не отображается",
+          "time" : {
+            "start" : 1781590497114,
+            "stop" : 1781590501950,
+            "duration" : 4836
+          },
+          "status" : "failed",
+          "statusMessage" : "Element should not exist {By.xpath: //android.widget.TextView[@resource-id=\"com.photoholding.android.mobile.v3:id/title\" and @text=\"new album\"]}\nElement: '<TextView resource-id=\"com.photoholding.android.mobile.v3:id/title\" checked=\"false\" content-desc=\"null\" enabled=\"true\" focused=\"false\" package=\"com.photoholding.android.mobile.v3\" name=\"new album\" className=\"android.widget.TextView\" bounds=\"[84,740][367,786]\" displayed=\"true\">new album</TextView>'\nActual value: exists\nScreenshot: file:/Users/tester/Library/LaunchAgents/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1781590501778.5.png\nPage source: file:/Users/tester/Library/LaunchAgents/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1781590501778.5.xml\nTimeout: 4 s.",
+          "statusTrace" : "Element should not exist {By.xpath: //android.widget.TextView[@resource-id=\"com.photoholding.android.mobile.v3:id/title\" and @text=\"new album\"]}\nElement: '<TextView resource-id=\"com.photoholding.android.mobile.v3:id/title\" checked=\"false\" content-desc=\"null\" enabled=\"true\" focused=\"false\" package=\"com.photoholding.android.mobile.v3\" name=\"new album\" className=\"android.widget.TextView\" bounds=\"[84,740][367,786]\" displayed=\"true\">new album</TextView>'\nActual value: exists\nScreenshot: file:/Users/tester/Library/LaunchAgents/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1781590501778.5.png\nPage source: file:/Users/tester/Library/LaunchAgents/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1781590501778.5.xml\nTimeout: 4 s.\n\tat com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:144)\n\tat com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:125)\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:102)\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:162)\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:134)\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:86)\n\tat jdk.proxy2/jdk.proxy2.$Proxy28.shouldNot(Unknown Source)\n\tat robotsAndroid.AlbumsRobotAndroid.lambda$verificationThatAlbumHasBeenDeleted$1(AlbumsRobotAndroid.java:2441)\n\tat io.qameta.allure.Allure.lambda$step$1(Allure.java:127)\n\tat io.qameta.allure.Allure.step(Allure.java:181)\n\tat io.qameta.allure.Allure.step(Allure.java:125)\n\tat robotsAndroid.AlbumsRobotAndroid.verificationThatAlbumHasBeenDeleted(AlbumsRobotAndroid.java:2440)\n\tat testsAndroid.AlbumsPageTestsAndroid.deletingAlbum(AlbumsPageTestsAndroid.java:155)\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:565)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.engine.extension.TimeoutInvocation.proceed(TimeoutInvocation.java:46)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1604)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1604)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)\n\tat org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)\n",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : true,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 3,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 57,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "6629e2f487f6d8f2",
+      "name" : "afterEach_deletingAlbum__",
+      "source" : "6629e2f487f6d8f2.png",
+      "type" : "image/png",
+      "size" : 106554
+    }, {
+      "uid" : "b52f56c43a261b4e",
+      "name" : "onFailure_deletingAlbum__",
+      "source" : "b52f56c43a261b4e.png",
+      "type" : "image/png",
+      "size" : 106554
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 13,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 83,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "m4.foto.local"
+  }, {
+    "name" : "thread",
+    "value" : "37238@m4.foto.local.main(3)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "testsAndroid.AlbumsPageTestsAndroid"
+  }, {
+    "name" : "testClass",
+    "value" : "testsAndroid.AlbumsPageTestsAndroid"
+  }, {
+    "name" : "testMethod",
+    "value" : "deletingAlbum"
+  }, {
+    "name" : "suite",
+    "value" : "testsAndroid.AlbumsPageTestsAndroid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "ID-2480",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "904cedb02948983c.json",
+  "parameterValues" : [ ]
+}
