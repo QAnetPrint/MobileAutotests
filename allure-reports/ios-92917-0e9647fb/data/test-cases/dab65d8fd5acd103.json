@@ -1,0 +1,301 @@
+{
+  "uid" : "dab65d8fd5acd103",
+  "name" : "OnboardingNextButtonIOS()",
+  "fullName" : "testsIOS.OnboardingTests.OnboardingNextButtonIOS",
+  "historyId" : "215e0f148491017036a426a02a1ca79b",
+  "time" : {
+    "start" : 1785214274275,
+    "stop" : 1785214344717,
+    "duration" : 70442
+  },
+  "description" : "Проверка Онбординга - iOS",
+  "descriptionHtml" : "<p>Проверка Онбординга - iOS</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка Онбординга - iOS",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Полностью пройти онбординг",
+      "time" : {
+        "start" : 1785214317438,
+        "stop" : 1785214343543,
+        "duration" : 26105
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ожидание загрузки экрана онбординга",
+        "time" : {
+          "start" : 1785214317438,
+          "stop" : 1785214319608,
+          "duration" : 2170
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Кнопка 'Далее' недоступна, выполняем свайп на следующую страницу 1",
+        "time" : {
+          "start" : 1785214321591,
+          "stop" : 1785214326610,
+          "duration" : 5019
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Свайп по экрану",
+          "time" : {
+            "start" : 1785214321615,
+            "stop" : 1785214326610,
+            "duration" : 4995
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Свайп по экрану через driver",
+            "time" : {
+              "start" : 1785214321615,
+              "stop" : 1785214325170,
+              "duration" : 3555
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Выполнить свайп от (300,400) до (100,400)",
+              "time" : {
+                "start" : 1785214321663,
+                "stop" : 1785214324209,
+                "duration" : 2546
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "hasContent" : false,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false
+            } ],
+            "attachments" : [ {
+              "uid" : "d5142d96fb534d6e",
+              "name" : "Swipe by driver",
+              "source" : "d5142d96fb534d6e.png",
+              "type" : "image/png",
+              "size" : 863346
+            } ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "IOSDriver:  on IOS (c6db8d43-1cea-4c79-8c35-c8ef07d38a91)"
+            }, {
+              "name" : "startX",
+              "value" : "300"
+            }, {
+              "name" : "startY",
+              "value" : "400"
+            }, {
+              "name" : "endX",
+              "value" : "100"
+            }, {
+              "name" : "endY",
+              "value" : "400"
+            } ],
+            "stepsCount" : 1,
+            "hasContent" : true,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ {
+            "uid" : "b75b76fe0eac9ce5",
+            "name" : "Swipe",
+            "source" : "b75b76fe0eac9ce5.png",
+            "type" : "image/png",
+            "size" : 863346
+          } ],
+          "parameters" : [ {
+            "name" : "startX",
+            "value" : "300"
+          }, {
+            "name" : "startY",
+            "value" : "400"
+          }, {
+            "name" : "endX",
+            "value" : "100"
+          }, {
+            "name" : "endY",
+            "value" : "400"
+          } ],
+          "stepsCount" : 2,
+          "hasContent" : true,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 3,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Ожидание после свайпа",
+        "time" : {
+          "start" : 1785214326611,
+          "stop" : 1785214328750,
+          "duration" : 2139
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Найдена финальная кнопка перехода к покупкам на странице 2",
+        "time" : {
+          "start" : 1785214329274,
+          "stop" : 1785214337832,
+          "duration" : 8558
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Повторная попытка нажать финальную кнопку перехода к покупкам",
+        "time" : {
+          "start" : 1785214338289,
+          "stop" : 1785214340265,
+          "duration" : 1976
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Ожидание открытия основного экрана приложения",
+        "time" : {
+          "start" : 1785214340265,
+          "stop" : 1785214342357,
+          "duration" : 2092
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Проверка наличия кнопки 'Каталог' после завершения онбординга",
+        "time" : {
+          "start" : 1785214342357,
+          "stop" : 1785214342482,
+          "duration" : 125
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "7d227b04a5ffe347",
+        "name" : "Onboarding completed",
+        "source" : "7d227b04a5ffe347.png",
+        "type" : "image/png",
+        "size" : 179201
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 10,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "User Onboarding"
+  }, {
+    "name" : "epic",
+    "value" : "Mobile Application Testing"
+  }, {
+    "name" : "story",
+    "value" : "Onboarding Flow"
+  }, {
+    "name" : "owner",
+    "value" : "Mobile Team"
+  }, {
+    "name" : "host",
+    "value" : "m4.foto.local"
+  }, {
+    "name" : "thread",
+    "value" : "80993@m4.foto.local.main(3)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "testsIOS.OnboardingTests"
+  }, {
+    "name" : "testClass",
+    "value" : "testsIOS.OnboardingTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "OnboardingNextButtonIOS"
+  }, {
+    "name" : "suite",
+    "value" : "testsIOS.OnboardingTests"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "ONBOARD-001",
+    "type" : "issue"
+  }, {
+    "name" : "ONBOARD-001",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "owner" : "Mobile Team",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dab65d8fd5acd103.json",
+  "parameterValues" : [ ]
+}
