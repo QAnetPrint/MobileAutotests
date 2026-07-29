@@ -1,0 +1,1124 @@
+{
+  "uid" : "ae8dd4d816b8f85f",
+  "name" : "printingPhotosFromAlbums()",
+  "fullName" : "testsAndroid.AlbumsPageTestsAndroid.printingPhotosFromAlbums",
+  "historyId" : "a06b4d585b29220e44e246fc1471fe20",
+  "time" : {
+    "start" : 1785300709147,
+    "stop" : 1785300783572,
+    "duration" : 74425
+  },
+  "description" : "Напечатать фото на экране /Просмотр фотографии/ в альбоме",
+  "descriptionHtml" : "<p>Напечатать фото на экране /Просмотр фотографии/ в альбоме</p>\n",
+  "status" : "failed",
+  "statusMessage" : "Element not found {By.xpath: //android.widget.ImageButton[@content-desc=\"Navigate up\"]}\nExpected: exist\nScreenshot: file:/Users/tester/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1785300779847.6.png\nPage source: file:/Users/tester/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1785300779847.6.xml\nTimeout: 25 s.\nCaused by: NoSuchElementException: An element could not be located on the page using the given search parameters.",
+  "statusTrace" : "Element not found {By.xpath: //android.widget.ImageButton[@content-desc=\"Navigate up\"]}\nExpected: exist\nScreenshot: file:/Users/tester/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1785300779847.6.png\nPage source: file:/Users/tester/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1785300779847.6.xml\nTimeout: 25 s.\nCaused by: NoSuchElementException: An element could not be located on the page using the given search parameters.\n\tat com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:89)\n\tat com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:142)\n\tat com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:141)\n\tat com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:125)\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:102)\n\tat com.codeborne.selenide.commands.Should.execute(Should.java:30)\n\tat com.codeborne.selenide.commands.Should.execute(Should.java:14)\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:162)\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:134)\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:86)\n\tat jdk.proxy2/jdk.proxy2.$Proxy29.shouldBe(Unknown Source)\n\tat robotsAndroid.AlbumsRobotAndroid.lambda$clickSafe$0(AlbumsRobotAndroid.java:1936)\n\tat io.qameta.allure.Allure.lambda$step$0(Allure.java:113)\n\tat io.qameta.allure.Allure.lambda$step$1(Allure.java:127)\n\tat io.qameta.allure.Allure.step(Allure.java:181)\n\tat io.qameta.allure.Allure.step(Allure.java:125)\n\tat io.qameta.allure.Allure.step(Allure.java:112)\n\tat robotsAndroid.AlbumsRobotAndroid.clickSafe(AlbumsRobotAndroid.java:1935)\n\tat robotsAndroid.AlbumsRobotAndroid.lambda$addPhotosFromGallery$7(AlbumsRobotAndroid.java:613)\n\tat io.qameta.allure.Allure.lambda$step$0(Allure.java:113)\n\tat io.qameta.allure.Allure.lambda$step$1(Allure.java:127)\n\tat io.qameta.allure.Allure.step(Allure.java:181)\n\tat io.qameta.allure.Allure.step(Allure.java:125)\n\tat io.qameta.allure.Allure.step(Allure.java:112)\n\tat robotsAndroid.AlbumsRobotAndroid.addPhotosFromGallery(AlbumsRobotAndroid.java:613)\n\tat testsAndroid.AlbumsPageTestsAndroid.printingPhotosFromAlbums(AlbumsPageTestsAndroid.java:261)\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:565)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1612)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1612)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)\n\tat org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)\nCaused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.19.1', revision: 'abe0ee07dc'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.7.3', java.version: '26.0.1'\nDriver info: io.appium.java_client.android.AndroidDriver\nCommand: [b33bf9a6-1363-49f2-a853-4f1950f47543, findElement {using=xpath, value=//android.widget.ImageButton[@content-desc=\"Navigate up\"]}]\nCapabilities {appium:app: /Applications/app-universal..., appium:appActivity: com.photoholding.android.mo..., appium:appPackage: com.photoholding.android.mo..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: /Applications/app-universal..., appActivity: com.photoholding.android.mo..., appPackage: com.photoholding.android.mo..., autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Pixel 2 API 35, disableWindowAnimation: true, fullReset: false, newCommandTimeout: 180, noReset: false, platformName: ANDROID}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: emulator-5554, appium:disableWindowAnimation: true, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 180, appium:noReset: false, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}\nSession ID: b33bf9a6-1363-49f2-a853-4f1950f47543\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:73)\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:46)\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:35)\n\tat com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:122)\n\tat com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:114)\n\t... 89 more\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Напечатать фото на экране /Просмотр фотографии/ в альбоме",
+    "status" : "failed",
+    "statusMessage" : "Element not found {By.xpath: //android.widget.ImageButton[@content-desc=\"Navigate up\"]}\nExpected: exist\nScreenshot: file:/Users/tester/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1785300779847.6.png\nPage source: file:/Users/tester/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1785300779847.6.xml\nTimeout: 25 s.\nCaused by: NoSuchElementException: An element could not be located on the page using the given search parameters.",
+    "statusTrace" : "Element not found {By.xpath: //android.widget.ImageButton[@content-desc=\"Navigate up\"]}\nExpected: exist\nScreenshot: file:/Users/tester/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1785300779847.6.png\nPage source: file:/Users/tester/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1785300779847.6.xml\nTimeout: 25 s.\nCaused by: NoSuchElementException: An element could not be located on the page using the given search parameters.\n\tat com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:89)\n\tat com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:142)\n\tat com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:141)\n\tat com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:125)\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:102)\n\tat com.codeborne.selenide.commands.Should.execute(Should.java:30)\n\tat com.codeborne.selenide.commands.Should.execute(Should.java:14)\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:162)\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:134)\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:86)\n\tat jdk.proxy2/jdk.proxy2.$Proxy29.shouldBe(Unknown Source)\n\tat robotsAndroid.AlbumsRobotAndroid.lambda$clickSafe$0(AlbumsRobotAndroid.java:1936)\n\tat io.qameta.allure.Allure.lambda$step$0(Allure.java:113)\n\tat io.qameta.allure.Allure.lambda$step$1(Allure.java:127)\n\tat io.qameta.allure.Allure.step(Allure.java:181)\n\tat io.qameta.allure.Allure.step(Allure.java:125)\n\tat io.qameta.allure.Allure.step(Allure.java:112)\n\tat robotsAndroid.AlbumsRobotAndroid.clickSafe(AlbumsRobotAndroid.java:1935)\n\tat robotsAndroid.AlbumsRobotAndroid.lambda$addPhotosFromGallery$7(AlbumsRobotAndroid.java:613)\n\tat io.qameta.allure.Allure.lambda$step$0(Allure.java:113)\n\tat io.qameta.allure.Allure.lambda$step$1(Allure.java:127)\n\tat io.qameta.allure.Allure.step(Allure.java:181)\n\tat io.qameta.allure.Allure.step(Allure.java:125)\n\tat io.qameta.allure.Allure.step(Allure.java:112)\n\tat robotsAndroid.AlbumsRobotAndroid.addPhotosFromGallery(AlbumsRobotAndroid.java:613)\n\tat testsAndroid.AlbumsPageTestsAndroid.printingPhotosFromAlbums(AlbumsPageTestsAndroid.java:261)\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:565)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1612)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1612)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)\n\tat org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)\nCaused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.19.1', revision: 'abe0ee07dc'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.7.3', java.version: '26.0.1'\nDriver info: io.appium.java_client.android.AndroidDriver\nCommand: [b33bf9a6-1363-49f2-a853-4f1950f47543, findElement {using=xpath, value=//android.widget.ImageButton[@content-desc=\"Navigate up\"]}]\nCapabilities {appium:app: /Applications/app-universal..., appium:appActivity: com.photoholding.android.mo..., appium:appPackage: com.photoholding.android.mo..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: /Applications/app-universal..., appActivity: com.photoholding.android.mo..., appPackage: com.photoholding.android.mo..., autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Pixel 2 API 35, disableWindowAnimation: true, fullReset: false, newCommandTimeout: 180, noReset: false, platformName: ANDROID}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: emulator-5554, appium:disableWindowAnimation: true, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 180, appium:noReset: false, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}\nSession ID: b33bf9a6-1363-49f2-a853-4f1950f47543\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:73)\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:46)\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:35)\n\tat com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:122)\n\tat com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:114)\n\t... 89 more\n",
+    "steps" : [ {
+      "name" : "Пропуск онбординга",
+      "time" : {
+        "start" : 1785300712388,
+        "stop" : 1785300716293,
+        "duration" : 3905
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ожидание загрузки экрана онбординга",
+        "time" : {
+          "start" : 1785300712388,
+          "stop" : 1785300714049,
+          "duration" : 1661
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Нажатие кнопки 'Пропустить'",
+        "time" : {
+          "start" : 1785300714050,
+          "stop" : 1785300714203,
+          "duration" : 153
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Проверка перехода в каталог",
+        "time" : {
+          "start" : 1785300714203,
+          "stop" : 1785300715730,
+          "duration" : 1527
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "8b435feff5613fee",
+        "name" : "Android skip onboarding",
+        "source" : "8b435feff5613fee.png",
+        "type" : "image/png",
+        "size" : 574454
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Открытие раздела профиля (Незарегистрированный пользователь)",
+      "time" : {
+        "start" : 1785300716293,
+        "stop" : 1785300717456,
+        "duration" : 1163
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ищем и нажимаем кнопку «Профиль»",
+        "time" : {
+          "start" : 1785300716293,
+          "stop" : 1785300716980,
+          "duration" : 687
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Проверяем опцию входа или выполняем выход",
+        "time" : {
+          "start" : 1785300716980,
+          "stop" : 1785300717063,
+          "duration" : 83
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Скриншот",
+        "time" : {
+          "start" : 1785300717063,
+          "stop" : 1785300717456,
+          "duration" : 393
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "46537c05e0ac9d3b",
+          "name" : "Открытие раздела профиля",
+          "source" : "46537c05e0ac9d3b.png",
+          "type" : "image/png",
+          "size" : 125008
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Вход в аккаунт",
+      "time" : {
+        "start" : 1785300717488,
+        "stop" : 1785300718622,
+        "duration" : 1134
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ищем и нажимаем кнопку «Войти»",
+        "time" : {
+          "start" : 1785300717488,
+          "stop" : 1785300718278,
+          "duration" : 790
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Проверяем экран подтверждения входа",
+        "time" : {
+          "start" : 1785300718278,
+          "stop" : 1785300718341,
+          "duration" : 63
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Скриншот",
+        "time" : {
+          "start" : 1785300718341,
+          "stop" : 1785300718622,
+          "duration" : 281
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f03773403e61b302",
+          "name" : "Вход в аккаунт",
+          "source" : "f03773403e61b302.png",
+          "type" : "image/png",
+          "size" : 96638
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверка входа по электронной почте",
+      "time" : {
+        "start" : 1785300718622,
+        "stop" : 1785300727645,
+        "duration" : 9023
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ожидание и нажатие «Почта»",
+        "time" : {
+          "start" : 1785300718622,
+          "stop" : 1785300720854,
+          "duration" : 2232
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Читаем учётные данные и вводим логин/пароль",
+        "time" : {
+          "start" : 1785300720854,
+          "stop" : 1785300724776,
+          "duration" : 3922
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Закрываем «Не сейчас» при необходимости",
+        "time" : {
+          "start" : 1785300724776,
+          "stop" : 1785300726678,
+          "duration" : 1902
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Скриншот",
+        "time" : {
+          "start" : 1785300726678,
+          "stop" : 1785300727645,
+          "duration" : 967
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3980a81deb1475a5",
+          "name" : "Ввод данных",
+          "source" : "3980a81deb1475a5.png",
+          "type" : "image/png",
+          "size" : 156141
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Открытие страницы альбомов",
+      "time" : {
+        "start" : 1785300727646,
+        "stop" : 1785300729385,
+        "duration" : 1739
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открываем страницу «Альбомы»",
+        "time" : {
+          "start" : 1785300727646,
+          "stop" : 1785300728945,
+          "duration" : 1299
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Проверяем, что отображается кнопка «Создать новый альбом»",
+        "time" : {
+          "start" : 1785300728945,
+          "stop" : 1785300728984,
+          "duration" : 39
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Делаем скриншот страницы альбомов",
+        "time" : {
+          "start" : 1785300728984,
+          "stop" : 1785300729385,
+          "duration" : 401
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9f94dfe9816ad045",
+          "name" : "Страница альбомов загружена",
+          "source" : "9f94dfe9816ad045.png",
+          "type" : "image/png",
+          "size" : 295693
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Обработка системного запроса разрешений: «Разрешить полный доступ»",
+      "time" : {
+        "start" : 1785300729386,
+        "stop" : 1785300730462,
+        "duration" : 1076
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Проверяем наличие баннера разрешений",
+        "time" : {
+          "start" : 1785300729386,
+          "stop" : 1785300729938,
+          "duration" : 552
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Баннер разрешений не отображается",
+          "time" : {
+            "start" : 1785300729938,
+            "stop" : 1785300729938,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ {
+          "uid" : "6f32322b8ccf9667",
+          "name" : "Баннер разрешений — проверка наличия",
+          "source" : "6f32322b8ccf9667.png",
+          "type" : "image/png",
+          "size" : 295693
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Делаем скриншот после обработки системного запроса",
+        "time" : {
+          "start" : 1785300729938,
+          "stop" : 1785300730462,
+          "duration" : 524
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "fbdbbd99afd283ec",
+          "name" : "Обработка системного запроса завершена",
+          "source" : "fbdbbd99afd283ec.png",
+          "type" : "image/png",
+          "size" : 295693
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Печать фотографий из редактора",
+      "time" : {
+        "start" : 1785300730462,
+        "stop" : 1785300780640,
+        "duration" : 50178
+      },
+      "status" : "failed",
+      "statusMessage" : "Element not found {By.xpath: //android.widget.ImageButton[@content-desc=\"Navigate up\"]}\nExpected: exist\nScreenshot: file:/Users/tester/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1785300779847.6.png\nPage source: file:/Users/tester/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1785300779847.6.xml\nTimeout: 25 s.\nCaused by: NoSuchElementException: An element could not be located on the page using the given search parameters.",
+      "statusTrace" : "Element not found {By.xpath: //android.widget.ImageButton[@content-desc=\"Navigate up\"]}\nExpected: exist\nScreenshot: file:/Users/tester/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1785300779847.6.png\nPage source: file:/Users/tester/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1785300779847.6.xml\nTimeout: 25 s.\nCaused by: NoSuchElementException: An element could not be located on the page using the given search parameters.\n\tat com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:89)\n\tat com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:142)\n\tat com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:141)\n\tat com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:125)\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:102)\n\tat com.codeborne.selenide.commands.Should.execute(Should.java:30)\n\tat com.codeborne.selenide.commands.Should.execute(Should.java:14)\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:162)\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:134)\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:86)\n\tat jdk.proxy2/jdk.proxy2.$Proxy29.shouldBe(Unknown Source)\n\tat robotsAndroid.AlbumsRobotAndroid.lambda$clickSafe$0(AlbumsRobotAndroid.java:1936)\n\tat io.qameta.allure.Allure.lambda$step$0(Allure.java:113)\n\tat io.qameta.allure.Allure.lambda$step$1(Allure.java:127)\n\tat io.qameta.allure.Allure.step(Allure.java:181)\n\tat io.qameta.allure.Allure.step(Allure.java:125)\n\tat io.qameta.allure.Allure.step(Allure.java:112)\n\tat robotsAndroid.AlbumsRobotAndroid.clickSafe(AlbumsRobotAndroid.java:1935)\n\tat robotsAndroid.AlbumsRobotAndroid.lambda$addPhotosFromGallery$7(AlbumsRobotAndroid.java:613)\n\tat io.qameta.allure.Allure.lambda$step$0(Allure.java:113)\n\tat io.qameta.allure.Allure.lambda$step$1(Allure.java:127)\n\tat io.qameta.allure.Allure.step(Allure.java:181)\n\tat io.qameta.allure.Allure.step(Allure.java:125)\n\tat io.qameta.allure.Allure.step(Allure.java:112)\n\tat robotsAndroid.AlbumsRobotAndroid.addPhotosFromGallery(AlbumsRobotAndroid.java:613)\n\tat testsAndroid.AlbumsPageTestsAndroid.printingPhotosFromAlbums(AlbumsPageTestsAndroid.java:261)\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:565)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1612)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1612)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)\n\tat org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)\nCaused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.19.1', revision: 'abe0ee07dc'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.7.3', java.version: '26.0.1'\nDriver info: io.appium.java_client.android.AndroidDriver\nCommand: [b33bf9a6-1363-49f2-a853-4f1950f47543, findElement {using=xpath, value=//android.widget.ImageButton[@content-desc=\"Navigate up\"]}]\nCapabilities {appium:app: /Applications/app-universal..., appium:appActivity: com.photoholding.android.mo..., appium:appPackage: com.photoholding.android.mo..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: /Applications/app-universal..., appActivity: com.photoholding.android.mo..., appPackage: com.photoholding.android.mo..., autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Pixel 2 API 35, disableWindowAnimation: true, fullReset: false, newCommandTimeout: 180, noReset: false, platformName: ANDROID}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: emulator-5554, appium:disableWindowAnimation: true, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 180, appium:noReset: false, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}\nSession ID: b33bf9a6-1363-49f2-a853-4f1950f47543\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:73)\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:46)\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:35)\n\tat com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:122)\n\tat com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:114)\n\t... 89 more\n",
+      "steps" : [ {
+        "name" : "Создание нового альбома",
+        "time" : {
+          "start" : 1785300730462,
+          "stop" : 1785300735818,
+          "duration" : 5356
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Проверяем, что отображается кнопка «Создать новый альбом»",
+          "time" : {
+            "start" : 1785300730462,
+            "stop" : 1785300730534,
+            "duration" : 72
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Нажимаем кнопку «Создать новый альбом»",
+          "time" : {
+            "start" : 1785300730534,
+            "stop" : 1785300731245,
+            "duration" : 711
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Проверяем, что форма создания альбома открылась",
+          "time" : {
+            "start" : 1785300731245,
+            "stop" : 1785300731274,
+            "duration" : 29
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Открываем поле ввода названия альбома",
+          "time" : {
+            "start" : 1785300731274,
+            "stop" : 1785300731953,
+            "duration" : 679
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Очищаем поле названия альбома",
+          "time" : {
+            "start" : 1785300731953,
+            "stop" : 1785300732027,
+            "duration" : 74
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Вводим название нового альбома",
+          "time" : {
+            "start" : 1785300732027,
+            "stop" : 1785300732666,
+            "duration" : 639
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Подтверждаем создание альбома",
+          "time" : {
+            "start" : 1785300732666,
+            "stop" : 1785300733535,
+            "duration" : 869
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Проверяем, что новый альбом отображается в списке",
+          "time" : {
+            "start" : 1785300733535,
+            "stop" : 1785300734461,
+            "duration" : 926
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Открываем созданный альбом",
+          "time" : {
+            "start" : 1785300734461,
+            "stop" : 1785300735333,
+            "duration" : 872
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Делаем скриншот созданного альбома",
+          "time" : {
+            "start" : 1785300735333,
+            "stop" : 1785300735818,
+            "duration" : 485
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "38274f2ed064aa1b",
+            "name" : "Создан новый альбом",
+            "source" : "38274f2ed064aa1b.png",
+            "type" : "image/png",
+            "size" : 90578
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 10,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Добавление фотографий из галереи",
+        "time" : {
+          "start" : 1785300735819,
+          "stop" : 1785300780631,
+          "duration" : 44812
+        },
+        "status" : "failed",
+        "statusMessage" : "Element not found {By.xpath: //android.widget.ImageButton[@content-desc=\"Navigate up\"]}\nExpected: exist\nScreenshot: file:/Users/tester/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1785300779847.6.png\nPage source: file:/Users/tester/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1785300779847.6.xml\nTimeout: 25 s.\nCaused by: NoSuchElementException: An element could not be located on the page using the given search parameters.",
+        "statusTrace" : "Element not found {By.xpath: //android.widget.ImageButton[@content-desc=\"Navigate up\"]}\nExpected: exist\nScreenshot: file:/Users/tester/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1785300779847.6.png\nPage source: file:/Users/tester/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1785300779847.6.xml\nTimeout: 25 s.\nCaused by: NoSuchElementException: An element could not be located on the page using the given search parameters.\n\tat com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:89)\n\tat com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:142)\n\tat com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:141)\n\tat com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:125)\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:102)\n\tat com.codeborne.selenide.commands.Should.execute(Should.java:30)\n\tat com.codeborne.selenide.commands.Should.execute(Should.java:14)\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:162)\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:134)\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:86)\n\tat jdk.proxy2/jdk.proxy2.$Proxy29.shouldBe(Unknown Source)\n\tat robotsAndroid.AlbumsRobotAndroid.lambda$clickSafe$0(AlbumsRobotAndroid.java:1936)\n\tat io.qameta.allure.Allure.lambda$step$0(Allure.java:113)\n\tat io.qameta.allure.Allure.lambda$step$1(Allure.java:127)\n\tat io.qameta.allure.Allure.step(Allure.java:181)\n\tat io.qameta.allure.Allure.step(Allure.java:125)\n\tat io.qameta.allure.Allure.step(Allure.java:112)\n\tat robotsAndroid.AlbumsRobotAndroid.clickSafe(AlbumsRobotAndroid.java:1935)\n\tat robotsAndroid.AlbumsRobotAndroid.lambda$addPhotosFromGallery$7(AlbumsRobotAndroid.java:613)\n\tat io.qameta.allure.Allure.lambda$step$0(Allure.java:113)\n\tat io.qameta.allure.Allure.lambda$step$1(Allure.java:127)\n\tat io.qameta.allure.Allure.step(Allure.java:181)\n\tat io.qameta.allure.Allure.step(Allure.java:125)\n\tat io.qameta.allure.Allure.step(Allure.java:112)\n\tat robotsAndroid.AlbumsRobotAndroid.addPhotosFromGallery(AlbumsRobotAndroid.java:613)\n\tat testsAndroid.AlbumsPageTestsAndroid.printingPhotosFromAlbums(AlbumsPageTestsAndroid.java:261)\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:565)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1612)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1612)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)\n\tat org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)\nCaused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.19.1', revision: 'abe0ee07dc'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.7.3', java.version: '26.0.1'\nDriver info: io.appium.java_client.android.AndroidDriver\nCommand: [b33bf9a6-1363-49f2-a853-4f1950f47543, findElement {using=xpath, value=//android.widget.ImageButton[@content-desc=\"Navigate up\"]}]\nCapabilities {appium:app: /Applications/app-universal..., appium:appActivity: com.photoholding.android.mo..., appium:appPackage: com.photoholding.android.mo..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: /Applications/app-universal..., appActivity: com.photoholding.android.mo..., appPackage: com.photoholding.android.mo..., autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Pixel 2 API 35, disableWindowAnimation: true, fullReset: false, newCommandTimeout: 180, noReset: false, platformName: ANDROID}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: emulator-5554, appium:disableWindowAnimation: true, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 180, appium:noReset: false, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}\nSession ID: b33bf9a6-1363-49f2-a853-4f1950f47543\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:73)\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:46)\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:35)\n\tat com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:122)\n\tat com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:114)\n\t... 89 more\n",
+        "steps" : [ {
+          "name" : "Открываем экран добавления фотографий",
+          "time" : {
+            "start" : 1785300735819,
+            "stop" : 1785300736775,
+            "duration" : 956
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Проверяем, что отображается: кнопка «Добавить»",
+            "time" : {
+              "start" : 1785300735819,
+              "stop" : 1785300735848,
+              "duration" : 29
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Открываем экран «Добавить»",
+            "time" : {
+              "start" : 1785300735848,
+              "stop" : 1785300736775,
+              "duration" : 927
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 2,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Переходим в раздел «Галерея»",
+          "time" : {
+            "start" : 1785300736775,
+            "stop" : 1785300736933,
+            "duration" : 158
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Проверяем, что отображается: кнопка «Галерея»",
+            "time" : {
+              "start" : 1785300736775,
+              "stop" : 1785300736818,
+              "duration" : 43
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Открываем раздел «Галерея»",
+            "time" : {
+              "start" : 1785300736818,
+              "stop" : 1785300736933,
+              "duration" : 115
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 2,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Проверяем, что отображается вкладка «Недавние»",
+          "time" : {
+            "start" : 1785300736933,
+            "stop" : 1785300738167,
+            "duration" : 1234
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Проверяем, что отображается: вкладка «Недавние»",
+            "time" : {
+              "start" : 1785300736933,
+              "stop" : 1785300738167,
+              "duration" : 1234
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Выбираем фотографии в галерее",
+          "time" : {
+            "start" : 1785300738168,
+            "stop" : 1785300748082,
+            "duration" : 9914
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Выбираем фото 1",
+            "time" : {
+              "start" : 1785300743566,
+              "stop" : 1785300744816,
+              "duration" : 1250
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Выбираем фото 2",
+            "time" : {
+              "start" : 1785300744817,
+              "stop" : 1785300745582,
+              "duration" : 765
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Выбираем фото 3",
+            "time" : {
+              "start" : 1785300745582,
+              "stop" : 1785300746318,
+              "duration" : 736
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Выбираем фото 4",
+            "time" : {
+              "start" : 1785300746318,
+              "stop" : 1785300747203,
+              "duration" : 885
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Выбираем фото 5",
+            "time" : {
+              "start" : 1785300747203,
+              "stop" : 1785300748082,
+              "duration" : 879
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 5,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Открываем просмотр выбранных фотографий",
+          "time" : {
+            "start" : 1785300748082,
+            "stop" : 1785300749555,
+            "duration" : 1473
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Проверяем, что отображается: кнопка «Добавить выбранные»",
+            "time" : {
+              "start" : 1785300748082,
+              "stop" : 1785300748679,
+              "duration" : 597
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Проверяем, что отображается: кнопка «Просмотр выбранных»",
+            "time" : {
+              "start" : 1785300748679,
+              "stop" : 1785300748737,
+              "duration" : 58
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Открываем просмотр выбранных",
+            "time" : {
+              "start" : 1785300748737,
+              "stop" : 1785300748881,
+              "duration" : 144
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Проверяем, что отображается: экран выбора или предпросмотра",
+            "time" : {
+              "start" : 1785300748881,
+              "stop" : 1785300749555,
+              "duration" : 674
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 4,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Прокручиваем фотографии в режиме предпросмотра",
+          "time" : {
+            "start" : 1785300749555,
+            "stop" : 1785300754762,
+            "duration" : 5207
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Выполняем свайп №1",
+            "time" : {
+              "start" : 1785300749556,
+              "stop" : 1785300750592,
+              "duration" : 1036
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Выполняем свайп №2",
+            "time" : {
+              "start" : 1785300750592,
+              "stop" : 1785300751630,
+              "duration" : 1038
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Выполняем свайп №3",
+            "time" : {
+              "start" : 1785300751631,
+              "stop" : 1785300752689,
+              "duration" : 1058
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Выполняем свайп №4",
+            "time" : {
+              "start" : 1785300752689,
+              "stop" : 1785300753728,
+              "duration" : 1039
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Выполняем свайп №5",
+            "time" : {
+              "start" : 1785300753728,
+              "stop" : 1785300754762,
+              "duration" : 1034
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 5,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Возвращаемся из режима предпросмотра",
+          "time" : {
+            "start" : 1785300754762,
+            "stop" : 1785300780583,
+            "duration" : 25821
+          },
+          "status" : "failed",
+          "statusMessage" : "Element not found {By.xpath: //android.widget.ImageButton[@content-desc=\"Navigate up\"]}\nExpected: exist\nScreenshot: file:/Users/tester/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1785300779847.6.png\nPage source: file:/Users/tester/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1785300779847.6.xml\nTimeout: 25 s.\nCaused by: NoSuchElementException: An element could not be located on the page using the given search parameters.",
+          "statusTrace" : "Element not found {By.xpath: //android.widget.ImageButton[@content-desc=\"Navigate up\"]}\nExpected: exist\nScreenshot: file:/Users/tester/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1785300779847.6.png\nPage source: file:/Users/tester/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1785300779847.6.xml\nTimeout: 25 s.\nCaused by: NoSuchElementException: An element could not be located on the page using the given search parameters.\n\tat com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:89)\n\tat com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:142)\n\tat com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:141)\n\tat com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:125)\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:102)\n\tat com.codeborne.selenide.commands.Should.execute(Should.java:30)\n\tat com.codeborne.selenide.commands.Should.execute(Should.java:14)\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:162)\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:134)\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:86)\n\tat jdk.proxy2/jdk.proxy2.$Proxy29.shouldBe(Unknown Source)\n\tat robotsAndroid.AlbumsRobotAndroid.lambda$clickSafe$0(AlbumsRobotAndroid.java:1936)\n\tat io.qameta.allure.Allure.lambda$step$0(Allure.java:113)\n\tat io.qameta.allure.Allure.lambda$step$1(Allure.java:127)\n\tat io.qameta.allure.Allure.step(Allure.java:181)\n\tat io.qameta.allure.Allure.step(Allure.java:125)\n\tat io.qameta.allure.Allure.step(Allure.java:112)\n\tat robotsAndroid.AlbumsRobotAndroid.clickSafe(AlbumsRobotAndroid.java:1935)\n\tat robotsAndroid.AlbumsRobotAndroid.lambda$addPhotosFromGallery$7(AlbumsRobotAndroid.java:613)\n\tat io.qameta.allure.Allure.lambda$step$0(Allure.java:113)\n\tat io.qameta.allure.Allure.lambda$step$1(Allure.java:127)\n\tat io.qameta.allure.Allure.step(Allure.java:181)\n\tat io.qameta.allure.Allure.step(Allure.java:125)\n\tat io.qameta.allure.Allure.step(Allure.java:112)\n\tat robotsAndroid.AlbumsRobotAndroid.addPhotosFromGallery(AlbumsRobotAndroid.java:613)\n\tat testsAndroid.AlbumsPageTestsAndroid.printingPhotosFromAlbums(AlbumsPageTestsAndroid.java:261)\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:565)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1612)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1612)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)\n\tat org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)\nCaused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.19.1', revision: 'abe0ee07dc'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.7.3', java.version: '26.0.1'\nDriver info: io.appium.java_client.android.AndroidDriver\nCommand: [b33bf9a6-1363-49f2-a853-4f1950f47543, findElement {using=xpath, value=//android.widget.ImageButton[@content-desc=\"Navigate up\"]}]\nCapabilities {appium:app: /Applications/app-universal..., appium:appActivity: com.photoholding.android.mo..., appium:appPackage: com.photoholding.android.mo..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: /Applications/app-universal..., appActivity: com.photoholding.android.mo..., appPackage: com.photoholding.android.mo..., autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Pixel 2 API 35, disableWindowAnimation: true, fullReset: false, newCommandTimeout: 180, noReset: false, platformName: ANDROID}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: emulator-5554, appium:disableWindowAnimation: true, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 180, appium:noReset: false, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}\nSession ID: b33bf9a6-1363-49f2-a853-4f1950f47543\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:73)\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:46)\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:35)\n\tat com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:122)\n\tat com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:114)\n\t... 89 more\n",
+          "steps" : [ {
+            "name" : "Возвращаемся назад из предпросмотра",
+            "time" : {
+              "start" : 1785300754762,
+              "stop" : 1785300780582,
+              "duration" : 25820
+            },
+            "status" : "failed",
+            "statusMessage" : "Element not found {By.xpath: //android.widget.ImageButton[@content-desc=\"Navigate up\"]}\nExpected: exist\nScreenshot: file:/Users/tester/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1785300779847.6.png\nPage source: file:/Users/tester/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1785300779847.6.xml\nTimeout: 25 s.\nCaused by: NoSuchElementException: An element could not be located on the page using the given search parameters.",
+            "statusTrace" : "Element not found {By.xpath: //android.widget.ImageButton[@content-desc=\"Navigate up\"]}\nExpected: exist\nScreenshot: file:/Users/tester/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1785300779847.6.png\nPage source: file:/Users/tester/builds/R8pZ_Q11i/0/autotests/mobile/build/reports/tests/1785300779847.6.xml\nTimeout: 25 s.\nCaused by: NoSuchElementException: An element could not be located on the page using the given search parameters.\n\tat com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:89)\n\tat com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:142)\n\tat com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:141)\n\tat com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:125)\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:102)\n\tat com.codeborne.selenide.commands.Should.execute(Should.java:30)\n\tat com.codeborne.selenide.commands.Should.execute(Should.java:14)\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:162)\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:134)\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:86)\n\tat jdk.proxy2/jdk.proxy2.$Proxy29.shouldBe(Unknown Source)\n\tat robotsAndroid.AlbumsRobotAndroid.lambda$clickSafe$0(AlbumsRobotAndroid.java:1936)\n\tat io.qameta.allure.Allure.lambda$step$0(Allure.java:113)\n\tat io.qameta.allure.Allure.lambda$step$1(Allure.java:127)\n\tat io.qameta.allure.Allure.step(Allure.java:181)\n\tat io.qameta.allure.Allure.step(Allure.java:125)\n\tat io.qameta.allure.Allure.step(Allure.java:112)\n\tat robotsAndroid.AlbumsRobotAndroid.clickSafe(AlbumsRobotAndroid.java:1935)\n\tat robotsAndroid.AlbumsRobotAndroid.lambda$addPhotosFromGallery$7(AlbumsRobotAndroid.java:613)\n\tat io.qameta.allure.Allure.lambda$step$0(Allure.java:113)\n\tat io.qameta.allure.Allure.lambda$step$1(Allure.java:127)\n\tat io.qameta.allure.Allure.step(Allure.java:181)\n\tat io.qameta.allure.Allure.step(Allure.java:125)\n\tat io.qameta.allure.Allure.step(Allure.java:112)\n\tat robotsAndroid.AlbumsRobotAndroid.addPhotosFromGallery(AlbumsRobotAndroid.java:613)\n\tat testsAndroid.AlbumsPageTestsAndroid.printingPhotosFromAlbums(AlbumsPageTestsAndroid.java:261)\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:565)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1612)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1612)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)\n\tat org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)\nCaused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.19.1', revision: 'abe0ee07dc'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.7.3', java.version: '26.0.1'\nDriver info: io.appium.java_client.android.AndroidDriver\nCommand: [b33bf9a6-1363-49f2-a853-4f1950f47543, findElement {using=xpath, value=//android.widget.ImageButton[@content-desc=\"Navigate up\"]}]\nCapabilities {appium:app: /Applications/app-universal..., appium:appActivity: com.photoholding.android.mo..., appium:appPackage: com.photoholding.android.mo..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: /Applications/app-universal..., appActivity: com.photoholding.android.mo..., appPackage: com.photoholding.android.mo..., autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Pixel 2 API 35, disableWindowAnimation: true, fullReset: false, newCommandTimeout: 180, noReset: false, platformName: ANDROID}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: emulator-5554, appium:disableWindowAnimation: true, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 180, appium:noReset: false, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}\nSession ID: b33bf9a6-1363-49f2-a853-4f1950f47543\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:73)\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:46)\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:35)\n\tat com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:122)\n\tat com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:114)\n\t... 89 more\n",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : true,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 27,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 39,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b266d76c79e90ac7",
+      "name" : "afterEach_printingPhotosFromAlbums__",
+      "source" : "b266d76c79e90ac7.png",
+      "type" : "image/png",
+      "size" : 48790
+    }, {
+      "uid" : "d9c30c46cadc16d8",
+      "name" : "onFailure_printingPhotosFromAlbums__",
+      "source" : "d9c30c46cadc16d8.png",
+      "type" : "image/png",
+      "size" : 48890
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 65,
+    "hasContent" : true,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "m4.foto.local"
+  }, {
+    "name" : "thread",
+    "value" : "30752@m4.foto.local.main(3)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "testsAndroid.AlbumsPageTestsAndroid"
+  }, {
+    "name" : "testClass",
+    "value" : "testsAndroid.AlbumsPageTestsAndroid"
+  }, {
+    "name" : "testMethod",
+    "value" : "printingPhotosFromAlbums"
+  }, {
+    "name" : "suite",
+    "value" : "testsAndroid.AlbumsPageTestsAndroid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "ID-3181",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "UI Tests",
+      "messageRegex" : ".*Element not found.*",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ae8dd4d816b8f85f.json",
+  "parameterValues" : [ ]
+}
